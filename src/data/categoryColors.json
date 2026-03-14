@@ -1,0 +1,306 @@
+{
+  "AI Assistants": {
+    "accent": "#BC8CFF",
+    "bg": "rgba(188,140,255,0.08)",
+    "border": "rgba(188,140,255,0.35)",
+    "glow": "0 0 14px rgba(188,140,255,0.45)",
+    "text": "#BC8CFF",
+    "emoji": "🤖"
+  },
+  "Coding & Dev": {
+    "accent": "#00BFFF",
+    "bg": "rgba(0,191,255,0.08)",
+    "border": "rgba(0,191,255,0.35)",
+    "glow": "0 0 14px rgba(0,191,255,0.45)",
+    "text": "#00BFFF",
+    "emoji": "💾"
+  },
+  "Coding": {
+    "accent": "#00BFFF",
+    "bg": "rgba(0,191,255,0.08)",
+    "border": "rgba(0,191,255,0.35)",
+    "glow": "0 0 14px rgba(0,191,255,0.45)",
+    "text": "#00BFFF",
+    "emoji": "💾"
+  },
+  "Content & Writing": {
+    "accent": "#0F7A4B",
+    "bg": "rgba(15,122,75,0.10)",
+    "border": "rgba(15,122,75,0.40)",
+    "glow": "0 0 14px rgba(15,122,75,0.35)",
+    "text": "#0F7A4B",
+    "emoji": "📝"
+  },
+  "Content Creation": {
+    "accent": "#0F7A4B",
+    "bg": "rgba(15,122,75,0.10)",
+    "border": "rgba(15,122,75,0.40)",
+    "glow": "0 0 14px rgba(15,122,75,0.35)",
+    "text": "#0F7A4B",
+    "emoji": "📝"
+  },
+  "Design & Creative": {
+    "accent": "#BF5FFF",
+    "bg": "rgba(191,95,255,0.08)",
+    "border": "rgba(191,95,255,0.35)",
+    "glow": "0 0 14px rgba(191,95,255,0.45)",
+    "text": "#BF5FFF",
+    "emoji": "🎨"
+  },
+  "Design": {
+    "accent": "#BF5FFF",
+    "bg": "rgba(191,95,255,0.08)",
+    "border": "rgba(191,95,255,0.35)",
+    "glow": "0 0 14px rgba(191,95,255,0.45)",
+    "text": "#BF5FFF",
+    "emoji": "🎨"
+  },
+  "Video & Audio": {
+    "accent": "#FF6600",
+    "bg": "rgba(255,102,0,0.08)",
+    "border": "rgba(255,102,0,0.35)",
+    "glow": "0 0 14px rgba(255,102,0,0.45)",
+    "text": "#FF6600",
+    "emoji": "📼"
+  },
+  "Video": {
+    "accent": "#FF6600",
+    "bg": "rgba(255,102,0,0.08)",
+    "border": "rgba(255,102,0,0.35)",
+    "glow": "0 0 14px rgba(255,102,0,0.45)",
+    "text": "#FF6600",
+    "emoji": "📼"
+  },
+  "Marketing": {
+    "accent": "#FF2D55",
+    "bg": "rgba(255,45,85,0.08)",
+    "border": "rgba(255,45,85,0.35)",
+    "glow": "0 0 14px rgba(255,45,85,0.45)",
+    "text": "#FF2D55",
+    "emoji": "📡"
+  },
+  "Productivity": {
+    "accent": "#8A6A00",
+    "bg": "rgba(138,106,0,0.10)",
+    "border": "rgba(138,106,0,0.40)",
+    "glow": "0 0 14px rgba(138,106,0,0.30)",
+    "text": "#8A6A00",
+    "emoji": "⚡"
+  },
+  "Research & Data": {
+    "accent": "#0A5C66",
+    "bg": "rgba(10,92,102,0.10)",
+    "border": "rgba(10,92,102,0.40)",
+    "glow": "0 0 14px rgba(10,92,102,0.32)",
+    "text": "#0A5C66",
+    "emoji": "🔬"
+  },
+  "Research": {
+    "accent": "#0A5C66",
+    "bg": "rgba(10,92,102,0.10)",
+    "border": "rgba(10,92,102,0.40)",
+    "glow": "0 0 14px rgba(10,92,102,0.32)",
+    "text": "#0A5C66",
+    "emoji": "🔬"
+  },
+  "Business & Finance": {
+    "accent": "#39FF14",
+    "bg": "rgba(57,255,20,0.08)",
+    "border": "rgba(57,255,20,0.35)",
+    "glow": "0 0 14px rgba(57,255,20,0.45)",
+    "text": "#39FF14",
+    "emoji": "📊"
+  },
+  "Business": {
+    "accent": "#39FF14",
+    "bg": "rgba(57,255,20,0.08)",
+    "border": "rgba(57,255,20,0.35)",
+    "glow": "0 0 14px rgba(57,255,20,0.45)",
+    "text": "#39FF14",
+    "emoji": "📊"
+  },
+  "Security & DevSecOps": {
+    "accent": "#FF2D55",
+    "bg": "rgba(255,45,85,0.08)",
+    "border": "rgba(255,45,85,0.35)",
+    "glow": "0 0 14px rgba(255,45,85,0.45)",
+    "text": "#FF2D55",
+    "emoji": "🔐"
+  },
+  "Healthcare & Science": {
+    "accent": "#26C6DA",
+    "bg": "rgba(38,198,218,0.08)",
+    "border": "rgba(38,198,218,0.35)",
+    "glow": "0 0 14px rgba(38,198,218,0.45)",
+    "text": "#26C6DA",
+    "emoji": "🏥"
+  },
+  "Education & Learning": {
+    "accent": "#F0C040",
+    "bg": "rgba(240,192,64,0.08)",
+    "border": "rgba(240,192,64,0.35)",
+    "glow": "0 0 14px rgba(240,192,64,0.45)",
+    "text": "#F0C040",
+    "emoji": "📚"
+  },
+  "Education": {
+    "accent": "#F0C040",
+    "bg": "rgba(240,192,64,0.08)",
+    "border": "rgba(240,192,64,0.35)",
+    "glow": "0 0 14px rgba(240,192,64,0.45)",
+    "text": "#F0C040",
+    "emoji": "🎓"
+  },
+  "Finance": {
+    "accent": "#39FF14",
+    "bg": "rgba(57,255,20,0.08)",
+    "border": "rgba(57,255,20,0.35)",
+    "glow": "0 0 14px rgba(57,255,20,0.45)",
+    "text": "#39FF14",
+    "emoji": "💰"
+  },
+  "Healthcare": {
+    "accent": "#26C6DA",
+    "bg": "rgba(38,198,218,0.08)",
+    "border": "rgba(38,198,218,0.35)",
+    "glow": "0 0 14px rgba(38,198,218,0.45)",
+    "text": "#26C6DA",
+    "emoji": "🩺"
+  },
+  "HR & Recruitment": {
+    "accent": "#7E57C2",
+    "bg": "rgba(126,87,194,0.08)",
+    "border": "rgba(126,87,194,0.35)",
+    "glow": "0 0 14px rgba(126,87,194,0.45)",
+    "text": "#7E57C2",
+    "emoji": "🧑‍💼"
+  },
+  "Image Generation": {
+    "accent": "#AB47BC",
+    "bg": "rgba(171,71,188,0.08)",
+    "border": "rgba(171,71,188,0.35)",
+    "glow": "0 0 14px rgba(171,71,188,0.45)",
+    "text": "#AB47BC",
+    "emoji": "🖼️"
+  },
+  "Legal": {
+    "accent": "#8D6E63",
+    "bg": "rgba(141,110,99,0.08)",
+    "border": "rgba(141,110,99,0.35)",
+    "glow": "0 0 14px rgba(141,110,99,0.45)",
+    "text": "#8D6E63",
+    "emoji": "⚖️"
+  },
+  "Project Management": {
+    "accent": "#5C6BC0",
+    "bg": "rgba(92,107,192,0.08)",
+    "border": "rgba(92,107,192,0.35)",
+    "glow": "0 0 14px rgba(92,107,192,0.45)",
+    "text": "#5C6BC0",
+    "emoji": "📋"
+  },
+  "Real Estate": {
+    "accent": "#FF7043",
+    "bg": "rgba(255,112,67,0.08)",
+    "border": "rgba(255,112,67,0.35)",
+    "glow": "0 0 14px rgba(255,112,67,0.45)",
+    "text": "#FF7043",
+    "emoji": "🏠"
+  },
+  "Security": {
+    "accent": "#FF2D55",
+    "bg": "rgba(255,45,85,0.08)",
+    "border": "rgba(255,45,85,0.35)",
+    "glow": "0 0 14px rgba(255,45,85,0.45)",
+    "text": "#FF2D55",
+    "emoji": "🛡️"
+  },
+  "Agentic & Automation": {
+    "accent": "#58A6FF",
+    "bg": "rgba(88,166,255,0.08)",
+    "border": "rgba(88,166,255,0.35)",
+    "glow": "0 0 14px rgba(88,166,255,0.45)",
+    "text": "#58A6FF",
+    "emoji": "⚙️"
+  },
+  "Physical AI & Robotics": {
+    "accent": "#FF9F43",
+    "bg": "rgba(255,159,67,0.08)",
+    "border": "rgba(255,159,67,0.35)",
+    "glow": "0 0 14px rgba(255,159,67,0.45)",
+    "text": "#FF9F43",
+    "emoji": "🦾"
+  },
+  "Audio & Music": {
+    "accent": "#E040FB",
+    "bg": "rgba(224,64,251,0.08)",
+    "border": "rgba(224,64,251,0.35)",
+    "glow": "0 0 14px rgba(224,64,251,0.45)",
+    "text": "#E040FB",
+    "emoji": "🎵"
+  },
+  "Translation & Language": {
+    "accent": "#42A5F5",
+    "bg": "rgba(66,165,245,0.08)",
+    "border": "rgba(66,165,245,0.35)",
+    "glow": "0 0 14px rgba(66,165,245,0.45)",
+    "text": "#42A5F5",
+    "emoji": "🌐"
+  },
+  "Customer Support": {
+    "accent": "#26A69A",
+    "bg": "rgba(38,166,154,0.08)",
+    "border": "rgba(38,166,154,0.35)",
+    "glow": "0 0 14px rgba(38,166,154,0.45)",
+    "text": "#26A69A",
+    "emoji": "🎧"
+  },
+  "Sales & CRM": {
+    "accent": "#66BB6A",
+    "bg": "rgba(102,187,106,0.08)",
+    "border": "rgba(102,187,106,0.35)",
+    "glow": "0 0 14px rgba(102,187,106,0.45)",
+    "text": "#66BB6A",
+    "emoji": "💼"
+  },
+  "Social Media": {
+    "accent": "#EC407A",
+    "bg": "rgba(236,64,122,0.08)",
+    "border": "rgba(236,64,122,0.35)",
+    "glow": "0 0 14px rgba(236,64,122,0.45)",
+    "text": "#EC407A",
+    "emoji": "📱"
+  },
+  "E-commerce": {
+    "accent": "#FFA726",
+    "bg": "rgba(255,167,38,0.08)",
+    "border": "rgba(255,167,38,0.35)",
+    "glow": "0 0 14px rgba(255,167,38,0.45)",
+    "text": "#FFA726",
+    "emoji": "🛒"
+  },
+  "Image & Photo": {
+    "accent": "#AB47BC",
+    "bg": "rgba(171,71,188,0.08)",
+    "border": "rgba(171,71,188,0.35)",
+    "glow": "0 0 14px rgba(171,71,188,0.45)",
+    "text": "#AB47BC",
+    "emoji": "📸"
+  },
+  "Data & Analytics": {
+    "accent": "#29B6F6",
+    "bg": "rgba(41,182,246,0.08)",
+    "border": "rgba(41,182,246,0.35)",
+    "glow": "0 0 14px rgba(41,182,246,0.45)",
+    "text": "#29B6F6",
+    "emoji": "📈"
+  },
+  "__default__": {
+    "accent": "#8B949E",
+    "bg": "rgba(139,148,158,0.08)",
+    "border": "rgba(139,148,158,0.30)",
+    "glow": "0 0 10px rgba(139,148,158,0.3)",
+    "text": "#8B949E",
+    "emoji": "🔧"
+  }
+}

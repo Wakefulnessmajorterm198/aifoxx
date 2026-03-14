@@ -1,0 +1,67 @@
+{
+  "_version": "1.0.0",
+  "_last_updated": "2026-03-14",
+  "product": {
+    "name":         "AIFOXX",
+    "name_styled":  "AIFOXX",
+    "tagline":      "Find the right AI tool. Know the real cost. Trust the data.",
+    "tagline_short":"The AI Tools Decision Engine",
+    "description":  "Open-source directory of 1000+ AI tools with real pricing, compliance data, and access method comparison.",
+    "domain":       "aifoxx.com",
+    "repo":         "https://github.com/withkarann/aifoxx",
+    "version":      "1.0.0"
+  },
+  "contact": {
+    "github":         "https://github.com/withkarann/aifoxx",
+    "pull_requests":  "https://github.com/withkarann/aifoxx/pulls",
+    "discussions":    "https://github.com/withkarann/aifoxx/discussions"
+  },
+  "creators": {
+    "primary": {
+      "name": "withkarann",
+      "github": "https://github.com/withkarann"
+    },
+    "co_creator": {
+      "name": "dhoniaanjaneya",
+      "github": "https://github.com/dhoniaanjaneya"
+    }
+  },
+  "seo": {
+    "title_template":    "{page} | AIFOXX",
+    "default_title":     "AIFOXX — Find the Right AI Tool",
+    "default_description": "Browse 1000+ AI tools. Compare real pricing, compliance certifications, and access methods.",
+    "og_image":          "/og-image.png",
+    "twitter_card":      "summary_large_image"
+  },
+  "nav": {
+    "logo_text": "AIFOXX",
+    "links": [
+      { "label": "TOOLS",     "url": "/"          },
+      { "label": "COMPARE",   "url": "/compare"   },
+      { "label": "CHANGELOG", "url": "/changelog" },
+      { "label": "SUBMIT",    "url": "/submit"    }
+    ],
+    "cta_label": "SUBMIT_TOOL",
+    "cta_url":   "/submit"
+  },
+  "hero": {
+    "pretitle":  "// OPEN SOURCE AI TOOLS DIRECTORY",
+    "heading":   "DISCOVER AI TOOLS",
+    "subtitle":  "Real pricing. Real compliance. Every access method.",
+    "prefix":    "> "
+  },
+  "copy": {
+    "empty_state":     "> NO_RESULTS_FOUND",
+    "loading":         "> LOADING...",
+    "not_available":   "// not yet verified",
+    "coming_soon":     "// coming soon",
+    "verified_label":  "✓ VERIFIED",
+    "footer_line":     "AIFOXX // OPEN SOURCE // MIT"
+  },
+  "legal": {
+    "license":     "MIT",
+    "founded":     "2026",
+    "privacy_url": "/privacy",
+    "terms_url":   "/terms"
+  }
+}
