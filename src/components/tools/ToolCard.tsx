@@ -28,7 +28,14 @@ export function ToolCard({ tool, variant = "default" }: ToolCardProps) {
         <div className="flex justify-between items-start gap-2">
           <div className="flex items-center min-w-0">
             {tool.logo_url ? (
-              <img src={tool.logo_url} alt={tool.name} className="w-8 h-8 rounded-[4px] object-cover shrink-0" />
+              <img
+                src={tool.logo_url}
+                alt={tool.name}
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                className="w-8 h-8 rounded-[4px] object-cover shrink-0"
+              />
             ) : (
               <div className="w-8 h-8 bg-bg-elevated border border-border-default rounded-[4px] flex items-center justify-center shrink-0">
                 <span className="letter-avatar font-display font-black text-sm">{tool.name.charAt(0).toUpperCase()}</span>

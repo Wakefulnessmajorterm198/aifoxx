@@ -14,6 +14,7 @@
     "validate": "node -e \"const t=require('./src/data/tools.json');const s=new Set();t.forEach((x,i)=>{const k=x.name.toLowerCase().replace(/[^a-z0-9]+/g,'-');if(s.has(k))throw new Error('DUPLICATE SLUG: '+k+' at index '+i);s.add(k);['name','category','subcategory','description','url','tags','pricing'].forEach(f=>{if(!x[f])throw new Error('MISSING: '+f+' at index '+i);});});console.log('✓ '+t.length+' tools valid, no duplicates');\""
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
@@ -43,6 +44,8 @@
     "@radix-ui/react-toggle-group": "^1.1.10",
     "@radix-ui/react-tooltip": "^1.2.7",
     "@tanstack/react-query": "^5.83.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",

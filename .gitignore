@@ -29,3 +29,15 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
+!.env.example
+
+# Vercel local project metadata
+.vercel
+
+# Local cert/key material
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx

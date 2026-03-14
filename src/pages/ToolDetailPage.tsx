@@ -67,7 +67,14 @@ export default function ToolDetailPage() {
           {/* Header */}
           <div className="flex gap-4 items-start">
             {tool.logo_url ? (
-              <img src={tool.logo_url} alt={tool.name} className="w-16 h-16 rounded-[4px] object-cover shrink-0" />
+              <img
+                src={tool.logo_url}
+                alt={tool.name}
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                className="w-16 h-16 rounded-[4px] object-cover shrink-0"
+              />
             ) : (
               <div className="w-16 h-16 bg-bg-elevated border border-border-default rounded-[4px] flex items-center justify-center shrink-0">
                 <span className="font-display font-black text-2xl" style={{ color: color.accent }}>{tool.name.charAt(0)}</span>
