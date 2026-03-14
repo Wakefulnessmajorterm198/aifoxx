@@ -30,7 +30,7 @@ export function PageWrapper({ children }: PageWrapperProps) {
             </SheetTrigger>
             <SheetContent side="left" className="w-[280px] bg-bg-surface p-0">
               <SheetTitle className="sr-only">Filter Categories</SheetTitle>
-              <div className="p-4">
+              <div className="p-4 overflow-y-auto max-h-[100dvh]">
                 <Sidebar onMobileClose={() => setMobileOpen(false)} />
               </div>
             </SheetContent>
