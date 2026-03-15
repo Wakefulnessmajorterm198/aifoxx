@@ -2,6 +2,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { CATEGORIES, allTools, matchesTaxonomyValue } from "@/lib/tools";
 import { useToolFilters } from "@/hooks/useToolFilters";
 import { getCategoryColor } from "@/lib/categoryColors";
+import { getCategoryIcon } from "@/lib/categoryIcons";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
 
@@ -63,6 +64,7 @@ export function Sidebar({ onMobileClose }: SidebarProps) {
         const count = allTools.filter((t) => t.category === cat.name).length;
         const isActive = selectedCategory ? matchesTaxonomyValue(selectedCategory, cat.name) : false;
         const color = getCategoryColor(cat.name);
+        const Icon = getCategoryIcon(cat.name);
 
         return (
           <Collapsible key={cat.name} defaultOpen={isActive}>
@@ -79,8 +81,13 @@ export function Sidebar({ onMobileClose }: SidebarProps) {
                   textShadow: isActive ? `0 0 8px ${color.accent}66` : 'none',
                 }}
               >
-                <span className="font-display text-[11px] md:text-sm font-black uppercase leading-tight text-left break-words pr-1 min-w-0 flex-1">
-                  {color.emoji} {cat.name}
+                <span className="font-display text-[11px] md:text-sm font-black uppercase leading-tight text-left break-words pr-1 min-w-0 flex-1 flex items-center gap-2">
+                  {Icon ? (
+                    <Icon size={18} weight="duotone" style={{ color: color.accent, filter: `drop-shadow(0 0 8px ${color.accent}66)` }} />
+                  ) : (
+                    <span>{color.emoji}</span>
+                  )}
+                  <span className="truncate">{cat.name}</span>
                 </span>
                 <span
                   className="sidebar-count-pill text-xs px-1.5 py-0.5 rounded-[4px] font-mono shrink-0 mt-0.5"
