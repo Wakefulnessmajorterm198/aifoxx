@@ -81,7 +81,20 @@ export default function ToolDetailPage() {
               </div>
             )}
             <div className="min-w-0">
-              <h1 className="font-display font-black text-4xl text-text-primary">{tool.name}</h1>
+              <div className="flex items-start gap-4">
+                <h1 className="font-display font-black text-4xl text-text-primary">{tool.name}</h1>
+                <a
+                  href={tool.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center font-display font-black tracking-widest text-sm px-4 py-2 rounded-[6px] transition-all duration-150"
+                  style={{ background: color.accent, color: '#080C10', marginLeft: 15 }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = color.glow; }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = 'none'; }}
+                >
+                  &gt;&gt; OPEN TOOL
+                </a>
+              </div>
               <div className="flex items-center gap-2 mt-2 flex-wrap">
                 <PricingBadge pricing={tool.pricing} />
                 {tool.featured && (
