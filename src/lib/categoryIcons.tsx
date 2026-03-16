@@ -28,7 +28,7 @@ import {
 } from "phosphor-react";
 import { normalizeTaxonomyValue } from "./tools";
 
-type IconComp = (props: any) => JSX.Element;
+type IconComp = typeof Rocket;
 
 const RAW_MAP: Record<string, IconComp> = {
   "AI Assistants": Rocket,
