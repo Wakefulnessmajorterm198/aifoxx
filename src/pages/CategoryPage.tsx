@@ -7,6 +7,7 @@ import { FilterBar } from "@/components/search/FilterBar";
 import { ToolCard } from "@/components/tools/ToolCard";
 import { PageMeta } from "@/components/seo/PageMeta";
 import { getCategoryColor } from "@/lib/categoryColors";
+import { getCategoryIcon } from "@/lib/categoryIcons";
 import { CATEGORIES, matchesTaxonomyValue, normalizeTaxonomyValue } from "@/lib/tools";
 import { cn } from "@/lib/utils";
 import Brand from "@/lib/brand";
@@ -50,7 +51,17 @@ export default function CategoryPage() {
         <div className="space-y-5">
           <div>
             <h1 className="font-display font-black text-3xl" style={{ color: color.accent }}>
-              {color.emoji} &gt; {cat.name.toUpperCase()}
+              <span className="inline-flex items-center gap-1">
+                {(() => {
+                  const Icon = getCategoryIcon(cat.name);
+                  return Icon ? (
+                    <Icon size={20} weight="duotone" style={{ color: color.accent, filter: `drop-shadow(0 0 8px ${color.accent}66)` }} />
+                  ) : (
+                    <span>{color.emoji}</span>
+                  );
+                })()}
+                <span className="truncate">{cat.name.toUpperCase()}</span>
+              </span>
             </h1>
             <p className="font-mono text-xs text-text-muted mt-1">{total} tools in this category</p>
             <div className="h-[2px] w-24 mt-2 rounded-full" style={{ background: color.accent, boxShadow: color.glow }} />
