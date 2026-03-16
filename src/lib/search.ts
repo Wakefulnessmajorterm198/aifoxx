@@ -4,7 +4,7 @@ import toolsData from '@/data/tools.json';
 
 const tools = toolsData as Tool[];
 
-const fuse = new Fuse<Tool>(tools, {
+const fuseOptions = {
   keys: [
     { name: 'name', weight: 2 },
     { name: 'tags', weight: 1.5 },
@@ -14,11 +14,20 @@ const fuse = new Fuse<Tool>(tools, {
   threshold: 0.3,
   includeScore: true,
   minMatchCharLength: 2,
-});
+};
 
-export function searchTools(query: string): Tool[] {
-  if (!query || !query.trim()) return tools;
-  return fuse.search(query).map((r) => r.item);
+const fuse = new Fuse<Tool>(tools, fuseOptions);
+
+export function searchTools(query: string, sourceTools: Tool[] = tools): Tool[] {
+  if (!query || !query.trim()) return sourceTools;
+  if (sourceTools.length === 0) return [];
+
+  if (sourceTools === tools) {
+    return fuse.search(query).map((r) => r.item);
+  }
+
+  const localFuse = new Fuse<Tool>(sourceTools, fuseOptions);
+  return localFuse.search(query).map((r) => r.item);
 }
 
 export default searchTools;
