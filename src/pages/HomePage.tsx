@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { allTools } from "@/lib/tools";
 import { useToolFilters } from "@/hooks/useToolFilters";
-import { useFilteredTools } from "@/hooks/useFilteredTools";
+import { searchTools } from "@/lib/search";
 import { SearchBar } from "@/components/search/SearchBar";
 import { FilterBar } from "@/components/search/FilterBar";
 import { ToolCard } from "@/components/tools/ToolCard";
@@ -17,7 +17,9 @@ const TOOLS_PER_PAGE = 12;
 export default function HomePage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const { filters, setFilter, clearFilters, activeFilterCount } = useToolFilters();
-  const { tools, total, isEmpty } = useFilteredTools(filters);
+  const tools = searchTools(filters.search);
+  const total = tools.length;
+  const isEmpty = total === 0;
   const hasActiveFilters = activeFilterCount > 0;
 
   const [loading, setLoading] = useState(true);
