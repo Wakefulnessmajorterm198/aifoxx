@@ -27,8 +27,9 @@ import {
   Database,
 } from "phosphor-react";
 import { normalizeTaxonomyValue } from "./tools";
+import type { ComponentType } from "react";
 
-type IconComp = (props: any) => JSX.Element;
+type IconComp = ComponentType<unknown>;
 
 const RAW_MAP: Record<string, IconComp> = {
   "AI Assistants": Rocket,
