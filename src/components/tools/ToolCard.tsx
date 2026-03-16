@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { type Tool } from "@/types/tool";
 import { PricingBadge } from "./PricingBadge";
 import { getCategoryColor, getCategoryVars } from "@/lib/categoryColors";
+import { getCategoryIcon } from "@/lib/categoryIcons";
 import { cn } from "@/lib/utils";
 
 interface ToolCardProps {
@@ -57,7 +58,17 @@ export function ToolCard({ tool, variant = "default" }: ToolCardProps) {
         {/* Row 1: Category + Subcategory */}
         <div className="flex flex-wrap gap-1.5 min-w-0">
           <span className="cat-chip inline-flex items-center text-[10px] font-mono px-2 py-0.5 rounded-[3px] shrink-0 max-w-full truncate">
-            {color.emoji} {tool.category}
+            <span className="inline-flex items-center gap-1">
+              {(() => {
+                const Icon = getCategoryIcon(tool.category);
+                return Icon ? (
+                  <Icon size={14} weight="duotone" style={{ color: color.accent, filter: `drop-shadow(0 0 6px ${color.accent}66)` }} />
+                ) : (
+                  <span>{color.emoji}</span>
+                );
+              })()}
+              <span className="truncate">{tool.category}</span>
+            </span>
           </span>
           <span className="subcat-chip inline-flex items-center text-[10px] font-mono px-2 py-0.5 rounded-[3px] shrink-0 max-w-full truncate">
             {tool.subcategory}
