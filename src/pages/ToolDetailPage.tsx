@@ -1,5 +1,7 @@
 import { useParams, Link } from "react-router-dom";
+import { Github, Star, ExternalLink } from "lucide-react";
 import { getToolBySlug, getRelatedTools } from "@/lib/tools";
+import { getSkillsByToolSlug } from "@/lib/skills";
 import { PageWrapper } from "@/components/layout/PageWrapper";
 import { PricingBadge } from "@/components/tools/PricingBadge";
 import { ToolCard } from "@/components/tools/ToolCard";
@@ -39,6 +41,7 @@ export default function ToolDetailPage() {
 
   const color = getCategoryColor(tool.category);
   const related = getRelatedTools(tool.slug, 3);
+  const skills = getSkillsByToolSlug(tool.slug);
 
   const compliance = tool.compliance;
   const dataStorage = tool.data_storage;
@@ -257,6 +260,51 @@ export default function ToolDetailPage() {
           >
             &gt;&gt; OPEN TOOL
           </a>
+
+          {/* Claude Skills */}
+          {skills.length > 0 && (
+            <section className="mt-8 space-y-3">
+              <div className="h-px w-full" style={{ background: `linear-gradient(to right, var(--accent-green), transparent)` }} />
+              <p className="font-mono text-xs text-text-muted tracking-widest">// CLAUDE SKILLS</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {skills.map((skill) => (
+                  <div key={skill.id} className="relative overflow-hidden bg-bg-surface border border-border-default rounded-[6px] p-3 flex flex-col gap-2 hover:border-accent-green/50 transition-all duration-150">
+                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-accent-green opacity-40" />
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <Github size={12} className="text-text-muted shrink-0" />
+                        <span className="font-display font-black text-sm text-text-primary truncate">{skill.name}</span>
+                      </div>
+                      <div className="flex items-center gap-1 shrink-0 font-mono text-[10px] text-accent-green border border-accent-green/40 px-1.5 py-0.5 rounded-[3px]">
+                        <Star size={9} className="fill-accent-green" />
+                        {skill.stars.toLocaleString()}
+                      </div>
+                    </div>
+                    {skill.description && (
+                      <p className="font-mono text-xs text-text-secondary line-clamp-2">{skill.description}</p>
+                    )}
+                    <div className="flex items-center justify-between pt-1 border-t border-border-dim">
+                      <span className="font-mono text-[10px] text-text-muted border border-border-dim px-1.5 py-0.5 rounded-[3px]">
+                        {skill.skill_type === "mcp-server" ? "MCP Server" : "Claude Code"}
+                      </span>
+                      <a
+                        href={skill.github_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1 font-mono text-[10px] text-accent-green hover:underline"
+                      >
+                        <ExternalLink size={10} />
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <Link to="/skills" className="font-mono text-xs text-text-muted hover:text-accent-green transition-colors">
+                &gt; Browse all Claude skills →
+              </Link>
+            </section>
+          )}
 
           {/* Related */}
           {related.length > 0 && (
