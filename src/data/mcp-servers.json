@@ -31,7 +31,8 @@
     "tool_name": "n8n",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "google-gemini-gemini-cli",
@@ -52,7 +53,8 @@
     "tool_name": "gemini-cli",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "affaan-m-everything-claude-code",
@@ -74,7 +76,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "upstash-context7",
@@ -92,7 +95,8 @@
     "tool_name": "context7",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "sansan0-trendradar",
@@ -122,40 +126,8 @@
     "tool_name": "Bark",
     "category": "Audio & Music",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "nextlevelbuilder-ui-ux-pro-max-skill",
-    "name": "Ui Ux Pro Max Skill",
-    "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
-    "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-    "stars": 46803,
-    "topics": [
-      "ai-skills",
-      "antigravity",
-      "claude",
-      "claude-code",
-      "codex",
-      "command-line",
-      "copilot",
-      "cursor-ai",
-      "html5",
-      "kiro",
-      "landing-page",
-      "mobile-ui",
-      "qoder",
-      "react",
-      "tailwindcss",
-      "trae",
-      "ui-design",
-      "uikit",
-      "windsurf-ai"
-    ],
-    "tool_slug": null,
-    "tool_name": "ui-ux-pro-max-skill",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "composiohq-awesome-claude-skills",
@@ -184,172 +156,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "code-yeongyu-oh-my-openagent",
-    "name": "Oh My Openagent",
-    "description": "omo; the best agent harness - previously oh-my-opencode",
-    "github_url": "https://github.com/code-yeongyu/oh-my-openagent",
-    "stars": 41913,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "amp",
-      "anthropic",
-      "chatgpt",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "cursor",
-      "gemini",
-      "ide",
-      "openai",
-      "opencode",
-      "orchestration",
-      "tui",
-      "typescript"
-    ],
-    "tool_slug": null,
-    "tool_name": "oh-my-openagent",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "cherryhq-cherry-studio",
-    "name": "Cherry Studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "github_url": "https://github.com/CherryHQ/cherry-studio",
-    "stars": 41905,
-    "topics": [
-      "ai-agent",
-      "claude-code",
-      "code-agent",
-      "codex",
-      "openclaw",
-      "opencode",
-      "shannon",
-      "skills",
-      "superpowers",
-      "superpowers-core-skills",
-      "vibe-coding"
-    ],
-    "tool_slug": "udio",
-    "tool_name": "Udio",
-    "category": "Audio & Music",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "thedotmack-claude-mem",
-    "name": "Claude Mem",
-    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
-    "github_url": "https://github.com/thedotmack/claude-mem",
-    "stars": 38753,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "ai-memory",
-      "anthropic",
-      "artificial-intelligence",
-      "chromadb",
-      "claude",
-      "claude-agent-sdk",
-      "claude-agents",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-skills",
-      "embeddings",
-      "long-term-memory",
-      "mem0",
-      "memory-engine",
-      "openmemory",
-      "rag",
-      "sqlite",
-      "supermemory"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "gsd-build-get-shit-done",
-    "name": "Get Shit Done",
-    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
-    "github_url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 37155,
-    "topics": [
-      "claude-code",
-      "context-engineering",
-      "meta-prompting",
-      "spec-driven-development"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "shareai-lab-learn-claude-code",
-    "name": "Learn Claude Code",
-    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-    "github_url": "https://github.com/shareAI-lab/learn-claude-code",
-    "stars": 34658,
-    "topics": [
-      "agent",
-      "agent-development",
-      "ai-agent",
-      "claude",
-      "claude-code",
-      "educational",
-      "llm",
-      "python",
-      "teaching",
-      "tutorial"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "wshobson-agents",
-    "name": "Agents",
-    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
-    "github_url": "https://github.com/wshobson/agents",
-    "stars": 31840,
-    "topics": [
-      "agents",
-      "anthropic",
-      "anthropic-claude",
-      "automation",
-      "claude",
-      "claude-code",
-      "claude-code-cli",
-      "claude-code-commands",
-      "claude-code-plugin",
-      "claude-code-plugins",
-      "claude-code-skills",
-      "claude-code-subagents",
-      "claude-skills",
-      "claudecode",
-      "claudecode-config",
-      "claudecode-subagents",
-      "orchestration",
-      "sub-agents",
-      "subagents",
-      "workflows"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "d4vinci-scrapling",
@@ -383,7 +191,8 @@
     "tool_name": "Scrapling",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "farion1231-cc-switch",
@@ -415,7 +224,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "chromedevtools-chrome-devtools-mcp",
@@ -437,39 +247,8 @@
     "tool_name": "chrome-devtools-mcp",
     "category": "Dev Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "hesreallyhim-awesome-claude-code",
-    "name": "Awesome Claude Code",
-    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
-    "github_url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 29421,
-    "topics": [
-      "agent-skills",
-      "agentic-code",
-      "agentic-coding",
-      "ai-workflow-optimization",
-      "ai-workflows",
-      "anthropic",
-      "anthropic-claude",
-      "awesome",
-      "awesome-list",
-      "awesome-lists",
-      "awesome-resources",
-      "claude",
-      "claude-code",
-      "coding-agent",
-      "coding-agents",
-      "coding-assistant",
-      "coding-assistants",
-      "llm"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "bytedance-ui-tars-desktop",
@@ -497,7 +276,8 @@
     "tool_name": "Modal",
     "category": "Coding",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "github-github-mcp-server",
@@ -514,7 +294,8 @@
     "tool_name": "github-mcp-server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "sickn33-antigravity-awesome-skills",
@@ -548,7 +329,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "assafelovic-gpt-researcher",
@@ -573,26 +355,8 @@
     "tool_name": "gpt-researcher",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "qwibitai-nanoclaw",
-    "name": "Nanoclaw",
-    "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
-    "github_url": "https://github.com/qwibitai/nanoclaw",
-    "stars": 24583,
-    "topics": [
-      "ai-agents",
-      "ai-assistant",
-      "claude-code",
-      "claude-skills",
-      "openclaw"
-    ],
-    "tool_slug": null,
-    "tool_name": "nanoclaw",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "prefecthq-fastmcp",
@@ -615,25 +379,8 @@
     "tool_name": "fastmcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "davila7-claude-code-templates",
-    "name": "Claude Code Templates",
-    "description": "CLI tool for configuring and monitoring Claude Code",
-    "github_url": "https://github.com/davila7/claude-code-templates",
-    "stars": 23279,
-    "topics": [
-      "anthropic",
-      "anthropic-claude",
-      "claude",
-      "claude-code"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ruvnet-ruflo",
@@ -667,7 +414,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "oraios-serena",
@@ -691,7 +439,8 @@
     "tool_name": "serena",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "activepieces-activepieces",
@@ -718,36 +467,8 @@
     "tool_name": "Pieces",
     "category": "Coding",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "winfunc-opcode",
-    "name": "Opcode",
-    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
-    "github_url": "https://github.com/winfunc/opcode",
-    "stars": 21029,
-    "topics": [
-      "anthropic",
-      "anthropic-claude",
-      "claude",
-      "claude-4",
-      "claude-4-opus",
-      "claude-4-sonnet",
-      "claude-ai",
-      "claude-code",
-      "claude-code-sdk",
-      "cursor",
-      "ide",
-      "llm",
-      "llm-code",
-      "rust",
-      "tauri"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "1panel-dev-maxkb",
@@ -775,151 +496,8 @@
     "tool_name": "MaxKB",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "iofficeai-aionui",
-    "name": "AionUi",
-    "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
-    "github_url": "https://github.com/iOfficeAI/AionUi",
-    "stars": 19503,
-    "topics": [
-      "acp",
-      "ai",
-      "ai-agent",
-      "chat",
-      "chatbot",
-      "claude-code",
-      "clawd",
-      "clawdbot",
-      "codex",
-      "cowork",
-      "gemini",
-      "gemini-cli",
-      "llm",
-      "nano-banana",
-      "office",
-      "openclaw",
-      "opencode",
-      "skills",
-      "webui"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "shanraisshan-claude-code-best-practice",
-    "name": "Claude Code Best Practice",
-    "description": "practice made claude perfect",
-    "github_url": "https://github.com/shanraisshan/claude-code-best-practice",
-    "stars": 19416,
-    "topics": [
-      "agentic-engineering",
-      "best-practices",
-      "claude-ai",
-      "claude-code",
-      "vibe-coding"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "steveyegge-beads",
-    "name": "Beads",
-    "description": "Beads - A memory upgrade for your coding agent",
-    "github_url": "https://github.com/steveyegge/beads",
-    "stars": 19408,
-    "topics": [
-      "agents",
-      "claude-code",
-      "coding"
-    ],
-    "tool_slug": null,
-    "tool_name": "beads",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "router-for-me-cliproxyapi",
-    "name": "CLIProxyAPI",
-    "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
-    "github_url": "https://github.com/router-for-me/CLIProxyAPI",
-    "stars": 18671,
-    "topics": [
-      "antigravity",
-      "claude-code",
-      "cluade",
-      "codex",
-      "gemini",
-      "openai",
-      "qwen3-coder"
-    ],
-    "tool_slug": "chatgpt",
-    "tool_name": "ChatGPT",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "othmanadi-planning-with-files",
-    "name": "Planning With Files",
-    "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
-    "github_url": "https://github.com/OthmanAdi/planning-with-files",
-    "stars": 16651,
-    "topics": [
-      "adal",
-      "agent",
-      "agent-skills",
-      "agents",
-      "antigravity",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "clawd",
-      "clawdbot",
-      "clawdbot-skill",
-      "clawdhub",
-      "codebuddy",
-      "cursor",
-      "factory-ai",
-      "kilocode",
-      "manus",
-      "manus-ai",
-      "moltbot",
-      "moltbot-skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "slopus-happy",
-    "name": "Happy",
-    "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
-    "github_url": "https://github.com/slopus/happy",
-    "stars": 15829,
-    "topics": [
-      "claude-code",
-      "claude-desktop",
-      "claude-mobile",
-      "codex",
-      "codex-cli",
-      "hacktoberfest"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "microsoft-mcp-for-beginners",
@@ -947,7 +525,8 @@
     "tool_name": "mcp-for-beginners",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "czlonkowski-n8n-mcp",
@@ -965,7 +544,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "triggerdotdev-trigger.dev",
@@ -992,7 +572,8 @@
     "tool_name": "trigger.dev",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "anthropics-claude-plugins-official",
@@ -1009,35 +590,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "voltagent-awesome-agent-skills",
-    "name": "Awesome Agent Skills",
-    "description": "Claude Code Skills and 500+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
-    "github_url": "https://github.com/VoltAgent/awesome-agent-skills",
-    "stars": 12122,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "antigravity-skills",
-      "awesome",
-      "awesome-list",
-      "awesome-lists",
-      "claude-code",
-      "claude-code-skills",
-      "claude-skills",
-      "codex-skills",
-      "cursor-skills",
-      "gemini-skills",
-      "opencode-skills",
-      "skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "xpzouying-xiaohongshu-mcp",
@@ -1054,7 +608,8 @@
     "tool_name": "xiaohongshu-mcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "tadata-org-fastapi_mcp",
@@ -1081,34 +636,8 @@
     "tool_name": "fastapi_mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "rtk-ai-rtk",
-    "name": "Rtk",
-    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "github_url": "https://github.com/rtk-ai/rtk",
-    "stars": 11445,
-    "topics": [
-      "agentic-coding",
-      "ai-coding",
-      "anthropic",
-      "claude-code",
-      "cli",
-      "command-line-tool",
-      "cost-reduction",
-      "developer-tools",
-      "llm",
-      "open-source",
-      "productivity",
-      "rust",
-      "token-optimization"
-    ],
-    "tool_slug": null,
-    "tool_name": "rtk",
-    "category": "Dev Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "yusufkaraaslan-skill_seekers",
@@ -1140,7 +669,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "0xjacky-nginx-ui",
@@ -1171,31 +701,8 @@
     "tool_name": "nginx-ui",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "yeachan-heo-oh-my-claudecode",
-    "name": "Oh My Claudecode",
-    "description": "Teams-first Multi-agent orchestration for Claude Code",
-    "github_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "stars": 10692,
-    "topics": [
-      "agentic-coding",
-      "ai-agents",
-      "automation",
-      "claude",
-      "claude-code",
-      "multi-agent-systems",
-      "oh-my-opencode",
-      "opencode",
-      "parallel-execution",
-      "vibe-coding"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "joeanamier-xhs-downloader",
@@ -1229,7 +736,8 @@
     "tool_name": "XHS-Downloader",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "panniantong-agent-reach",
@@ -1260,108 +768,8 @@
     "tool_name": "Agent-Reach",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "humanlayer-humanlayer",
-    "name": "Humanlayer",
-    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
-    "github_url": "https://github.com/humanlayer/humanlayer",
-    "stars": 9943,
-    "topics": [
-      "agents",
-      "ai",
-      "amp",
-      "claude-code",
-      "codex",
-      "human-in-the-loop",
-      "humanlayer",
-      "llm",
-      "llms",
-      "opencode"
-    ],
-    "tool_slug": null,
-    "tool_name": "humanlayer",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "wei-shaw-claude-relay-service",
-    "name": "Claude Relay Service",
-    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "github_url": "https://github.com/Wei-Shaw/claude-relay-service",
-    "stars": 9894,
-    "topics": [
-      "claude",
-      "claude-api",
-      "claude-code",
-      "claude-proxy",
-      "codex-cli",
-      "crs",
-      "droid",
-      "droid-cli",
-      "droid2api",
-      "gemini-cli"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "aden-hive-hive",
-    "name": "Hive",
-    "description": "Outcome driven agent development framework that evolves",
-    "github_url": "https://github.com/aden-hive/hive",
-    "stars": 9688,
-    "topics": [
-      "agent",
-      "agent-framework",
-      "agent-skills",
-      "ai-evaluation",
-      "anthropic",
-      "automation",
-      "autonomous-agents",
-      "awesome",
-      "claude",
-      "claude-code",
-      "human-in-the-loop",
-      "observability-ai",
-      "openai",
-      "python",
-      "self-hosted",
-      "self-improving",
-      "self-improving-agent",
-      "self-improving-ai"
-    ],
-    "tool_slug": "hive",
-    "tool_name": "Hive",
-    "category": "Productivity",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "jarrodwatts-claude-hud",
-    "name": "Claude Hud",
-    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-    "github_url": "https://github.com/jarrodwatts/claude-hud",
-    "stars": 9482,
-    "topics": [
-      "anthropic",
-      "claude",
-      "claude-code",
-      "cli",
-      "plugin",
-      "statusline",
-      "typescript"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "mcp-use-mcp-use",
@@ -1395,124 +803,8 @@
     "tool_name": "ChatGPT",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "nousresearch-hermes-agent",
-    "name": "Hermes Agent",
-    "description": "The agent that grows with you",
-    "github_url": "https://github.com/NousResearch/hermes-agent",
-    "stars": 9451,
-    "topics": [
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "anthropic",
-      "chatgpt",
-      "claude",
-      "claude-code",
-      "clawdbot",
-      "codex",
-      "hermes",
-      "hermes-agent",
-      "llm",
-      "moltbot",
-      "nous-research",
-      "openai",
-      "openclaw"
-    ],
-    "tool_slug": "rows",
-    "tool_name": "Rows",
-    "category": "Data & Analytics",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "travisvn-awesome-claude-skills",
-    "name": "Awesome Claude Skills",
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-    "github_url": "https://github.com/travisvn/awesome-claude-skills",
-    "stars": 9346,
-    "topics": [
-      "agentic-coding",
-      "anthropic",
-      "awesome",
-      "awesome-list",
-      "awesome-lists",
-      "claude",
-      "claude-ai",
-      "claude-code",
-      "claude-desktop",
-      "claude-skills",
-      "claudeskills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "rowboatlabs-rowboat",
-    "name": "Rowboat",
-    "description": "Open-source AI coworker, with memory",
-    "github_url": "https://github.com/rowboatlabs/rowboat",
-    "stars": 9297,
-    "topics": [
-      "agents",
-      "agents-sdk",
-      "ai",
-      "ai-agents",
-      "ai-agents-automation",
-      "chatgpt",
-      "claude-code",
-      "claude-cowork",
-      "generative-ai",
-      "llm",
-      "multiagent",
-      "opeani",
-      "open-source",
-      "orchestration",
-      "productivity"
-    ],
-    "tool_slug": null,
-    "tool_name": "rowboat",
-    "category": "Productivity",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "xonsh-xonsh",
-    "name": "Xonsh",
-    "description": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
-    "github_url": "https://github.com/xonsh/xonsh",
-    "stars": 9255,
-    "topics": [
-      "alacritty",
-      "anthropic",
-      "chatgpt",
-      "claude",
-      "claude-code",
-      "console",
-      "data-engineering",
-      "data-scientists",
-      "devops",
-      "devsecops",
-      "hyper",
-      "iterm2",
-      "kitty",
-      "raspberry-pi",
-      "security-automation",
-      "vscode",
-      "vscode-extension",
-      "wezterm",
-      "xonsh"
-    ],
-    "tool_slug": null,
-    "tool_name": "xonsh",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "open-metadata-openmetadata",
@@ -1546,7 +838,8 @@
     "tool_name": "OpenMetadata",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "xinnan-tech-xiaozhi-esp32-server",
@@ -1567,73 +860,8 @@
     "tool_name": "xiaozhi-esp32-server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "manaflow-ai-cmux",
-    "name": "Cmux",
-    "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
-    "github_url": "https://github.com/manaflow-ai/cmux",
-    "stars": 8938,
-    "topics": [
-      "amp",
-      "claude-code",
-      "codex",
-      "gemini",
-      "ghostty",
-      "opencode",
-      "terminal",
-      "tmux"
-    ],
-    "tool_slug": null,
-    "tool_name": "cmux",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "steipete-codexbar",
-    "name": "CodexBar",
-    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-    "github_url": "https://github.com/steipete/CodexBar",
-    "stars": 8895,
-    "topics": [
-      "ai",
-      "claude-code",
-      "codex",
-      "swift"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "siteboon-claudecodeui",
-    "name": "Claudecodeui",
-    "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
-    "github_url": "https://github.com/siteboon/claudecodeui",
-    "stars": 8713,
-    "topics": [
-      "anthropic",
-      "anthropic-ai",
-      "anthropic-claude",
-      "claude",
-      "claude-api",
-      "claude-code",
-      "claude-code-ui",
-      "claudecode",
-      "gui",
-      "mobile-first",
-      "react",
-      "ui"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "awslabs-mcp",
@@ -1656,7 +884,8 @@
     "tool_name": "mcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "lastmile-ai-mcp-agent",
@@ -1678,30 +907,8 @@
     "tool_name": "mcp-agent",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "frankbria-ralph-claude-code",
-    "name": "Ralph Claude Code",
-    "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
-    "github_url": "https://github.com/frankbria/ralph-claude-code",
-    "stars": 8043,
-    "topics": [
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "ai-development",
-      "ai-development-tools",
-      "claude-code",
-      "claude-code-cli",
-      "development-tools",
-      "development-workflow"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "upsonic-upsonic",
@@ -1727,27 +934,8 @@
     "tool_name": "Upsonic",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "automazeio-ccpm",
-    "name": "Ccpm",
-    "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
-    "github_url": "https://github.com/automazeio/ccpm",
-    "stars": 7715,
-    "topics": [
-      "ai-agents",
-      "ai-coding",
-      "claude",
-      "claude-code",
-      "project-management",
-      "vibe-coding"
-    ],
-    "tool_slug": null,
-    "tool_name": "ccpm",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "firerpa-lamda",
@@ -1781,7 +969,8 @@
     "tool_name": "lamda",
     "category": "Security",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "0x4m4-hexstrike-ai",
@@ -1815,7 +1004,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "superset-sh-superset",
@@ -1849,30 +1039,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "wei-shaw-sub2api",
-    "name": "Sub2api",
-    "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "github_url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 7357,
-    "topics": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "coplaydev-unity-mcp",
@@ -1902,7 +1070,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "agentdeskai-browser-tools-mcp",
@@ -1921,49 +1090,8 @@
     "tool_name": "Cursor",
     "category": "Coding",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "jeffallan-claude-skills",
-    "name": "Claude Skills",
-    "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
-    "github_url": "https://github.com/Jeffallan/claude-skills",
-    "stars": 7071,
-    "topics": [
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "claude-marketplace",
-      "claude-skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "maciek-roboblog-claude-code-usage-monitor",
-    "name": "Claude Code Usage Monitor",
-    "description": "Real-time Claude Code usage monitor with predictions and warnings",
-    "github_url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
-    "stars": 7041,
-    "topics": [
-      "ai",
-      "analytics",
-      "claude",
-      "claude-code",
-      "claude-usage",
-      "limits",
-      "monitoring",
-      "terminal",
-      "usage-tracking"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "yzfly-awesome-mcp-zh",
@@ -1989,7 +1117,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "mrexodia-ida-pro-mcp",
@@ -2012,7 +1141,8 @@
     "tool_name": "ida-pro-mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "grab-cursor-talk-to-figma-mcp",
@@ -2040,98 +1170,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "smtg-ai-claude-squad",
-    "name": "Claude Squad",
-    "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
-    "github_url": "https://github.com/smtg-ai/claude-squad",
-    "stars": 6452,
-    "topics": [
-      "claude-code",
-      "cli",
-      "codex",
-      "opencode",
-      "vibe-coding"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "ykdojo-claude-code-tips",
-    "name": "Claude Code Tips",
-    "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
-    "github_url": "https://github.com/ykdojo/claude-code-tips",
-    "stars": 6389,
-    "topics": [
-      "agentic",
-      "agentic-ai",
-      "agentic-coding",
-      "agentic-workflow",
-      "ai",
-      "claude",
-      "claude-ai",
-      "claude-code",
-      "cli",
-      "developer-tools",
-      "productivity",
-      "tips-and-tricks"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "olimorris-codecompanion.nvim",
-    "name": "Codecompanion.Nvim",
-    "description": "✨ AI Coding, Vim Style",
-    "github_url": "https://github.com/olimorris/codecompanion.nvim",
-    "stars": 6323,
-    "topics": [
-      "acp",
-      "agent",
-      "agent-client-protocol",
-      "anthropic",
-      "claude-code",
-      "copilot",
-      "deepseek",
-      "gemini",
-      "google-gemini",
-      "llm",
-      "neovim",
-      "nvim",
-      "ollama",
-      "openai",
-      "plugin"
-    ],
-    "tool_slug": null,
-    "tool_name": "codecompanion.nvim",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "piebald-ai-claude-code-system-prompts",
-    "name": "Claude Code System Prompts",
-    "description": "All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
-    "github_url": "https://github.com/Piebald-AI/claude-code-system-prompts",
-    "stars": 6240,
-    "topics": [
-      "claude-code",
-      "claude-code-system-prompts",
-      "system-prompts"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "browsermcp-mcp",
@@ -2151,7 +1191,8 @@
     "tool_name": "Rows",
     "category": "Data & Analytics",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "firecrawl-firecrawl-mcp-server",
@@ -2179,7 +1220,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "klavis-ai-klavis",
@@ -2207,7 +1249,8 @@
     "tool_name": "Ably",
     "category": "Agentic & Automation",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "appcypher-awesome-mcp-servers",
@@ -2230,7 +1273,8 @@
     "tool_name": "awesome-mcp-servers",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "nanbingxyz-5ire",
@@ -2249,7 +1293,8 @@
     "tool_name": "5ire",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "funnywolf-viper",
@@ -2273,7 +1318,8 @@
     "tool_name": "Viper",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "getsentry-xcodebuildmcp",
@@ -2294,7 +1340,8 @@
     "tool_name": "XcodeBuildMCP",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "u14app-deep-research",
@@ -2318,7 +1365,8 @@
     "tool_name": "deep-research",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "casibase-casibase",
@@ -2352,7 +1400,8 @@
     "tool_name": "ChatGPT",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "osaurus-ai-osaurus",
@@ -2376,7 +1425,8 @@
     "tool_name": "osaurus",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "httprunner-httprunner",
@@ -2400,7 +1450,8 @@
     "tool_name": "httprunner",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "wgpsec-enscan_go",
@@ -2423,7 +1474,8 @@
     "tool_name": "ENScan_GO",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "open-webui-mcpo",
@@ -2442,7 +1494,8 @@
     "tool_name": "mcpo",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "txn2-kubefwd",
@@ -2471,7 +1524,8 @@
     "tool_name": "kubefwd",
     "category": "Dev Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "exa-labs-exa-mcp-server",
@@ -2493,7 +1547,8 @@
     "tool_name": "exa-mcp-server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "antvis-mcp-server-chart",
@@ -2513,7 +1568,8 @@
     "tool_name": "mcp-server-chart",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "evalstate-fast-agent",
@@ -2538,7 +1594,8 @@
     "tool_name": "fast-agent",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "zebbern-claude-code-guide",
@@ -2572,7 +1629,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "archestra-ai-archestra",
@@ -2606,7 +1664,8 @@
     "tool_name": "archestra",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "haris-musa-excel-mcp-server",
@@ -2630,7 +1689,8 @@
     "tool_name": "excel-mcp-server",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ibm-mcp-context-forge",
@@ -2664,7 +1724,8 @@
     "tool_name": "Front",
     "category": "Productivity",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "liaokongvfx-mcp-chinese-getting-started-guide",
@@ -2683,7 +1744,8 @@
     "tool_name": "MCP-Chinese-Getting-Started-Guide",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "huangjunsen0406-py-xiaozhi",
@@ -2703,7 +1765,8 @@
     "tool_name": "py-xiaozhi",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "maximhq-bifrost",
@@ -2733,7 +1796,8 @@
     "tool_name": "bifrost",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "wanshuiyin-auto-claude-code-research-in-sleep",
@@ -2767,7 +1831,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "zcaceres-markdownify-mcp",
@@ -2790,7 +1855,8 @@
     "tool_name": "markdownify-mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "metatool-ai-metamcp",
@@ -2819,7 +1885,8 @@
     "tool_name": "metamcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "genieincodebottle-generative-ai",
@@ -2853,7 +1920,8 @@
     "tool_name": "generative-ai",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "jamubc-gemini-mcp-tool",
@@ -2877,7 +1945,8 @@
     "tool_name": "Google Gemini",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "taylorwilsdon-google_workspace_mcp",
@@ -2911,7 +1980,8 @@
     "tool_name": "google_workspace_mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ravitemer-mcphub.nvim",
@@ -2941,7 +2011,8 @@
     "tool_name": "mcphub.nvim",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "stacklok-toolhive",
@@ -2966,7 +2037,8 @@
     "tool_name": "Hive",
     "category": "Productivity",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "maxritter-pilot-shell",
@@ -2997,7 +2069,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "doobidoo-mcp-memory-service",
@@ -3031,7 +2104,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "zinja-coder-jadx-ai-mcp",
@@ -3058,7 +2132,8 @@
     "tool_name": "jadx-ai-mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "isaacphi-mcp-language-server",
@@ -3077,7 +2152,8 @@
     "tool_name": "mcp-language-server",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "codergamester-mcp-unity",
@@ -3105,7 +2181,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "universal-tool-calling-protocol-code-mode",
@@ -3125,7 +2202,8 @@
     "tool_name": "code-mode",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ivanmurzak-unity-mcp",
@@ -3158,7 +2236,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "evilsocket-nerve",
@@ -3181,7 +2260,8 @@
     "tool_name": "nerve",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "grafbase-grafbase",
@@ -3205,7 +2285,8 @@
     "tool_name": "grafbase",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "designcomputer-mysql_mcp_server",
@@ -3223,7 +2304,8 @@
     "tool_name": "mysql_mcp_server",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "kimsungwhee-apple-docs-mcp",
@@ -3256,7 +2338,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ai-ql-tuui",
@@ -3290,7 +2373,8 @@
     "tool_name": "tuui",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "dmayboroda-minima",
@@ -3316,7 +2400,8 @@
     "tool_name": "minima",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "gyoridavid-short-video-maker",
@@ -3350,7 +2435,8 @@
     "tool_name": "Make",
     "category": "Productivity",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "secretiveshell-mcp-bridge",
@@ -3372,7 +2458,8 @@
     "tool_name": "MCP-Bridge",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "mcpjungle-mcpjungle",
@@ -3395,7 +2482,8 @@
     "tool_name": "MCPJungle",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "alioshr-memory-bank-mcp",
@@ -3418,7 +2506,8 @@
     "tool_name": "Remote",
     "category": "HR & Recruitment",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "massgen-massgen",
@@ -3448,7 +2537,8 @@
     "tool_name": "Front",
     "category": "Productivity",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "zaidmukaddam-scira-mcp-chat",
@@ -3469,7 +2559,8 @@
     "tool_name": "scira-mcp-chat",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "arcadeai-arcade-mcp",
@@ -3498,7 +2589,8 @@
     "tool_name": "arcade-mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "alexander-zuev-supabase-mcp-server",
@@ -3516,7 +2608,8 @@
     "tool_name": "Supabase",
     "category": "Agentic & Automation",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "samuraigpt-awesome-openclaw",
@@ -3550,7 +2643,8 @@
     "tool_name": "awesome-openclaw",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "context-space-context-space",
@@ -3577,7 +2671,8 @@
     "tool_name": "context-space",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "vllora-vllora",
@@ -3609,7 +2704,8 @@
     "tool_name": "vllora",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "deusdata-codebase-memory-mcp",
@@ -3643,7 +2739,8 @@
     "tool_name": "codebase-memory-mcp",
     "category": "Dev Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "dadbodgeoff-drift",
@@ -3670,7 +2767,8 @@
     "tool_name": "Cision",
     "category": "Marketing",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "bgauryy-octocode-mcp",
@@ -3704,7 +2802,8 @@
     "tool_name": "octocode-mcp",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "adhikasp-mcp-client-cli",
@@ -3722,7 +2821,8 @@
     "tool_name": "mcp-client-cli",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "vibheksoni-stealth-browser-mcp",
@@ -3756,50 +2856,8 @@
     "tool_name": "Rows",
     "category": "Data & Analytics",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "alirezarezvani-claudeforge",
-    "name": "ClaudeForge",
-    "description": "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code.",
-    "github_url": "https://github.com/alirezarezvani/ClaudeForge",
-    "stars": 320,
-    "topics": [
-      "agentic-ai",
-      "agentic-workflow",
-      "claude-code",
-      "claude-skill",
-      "claude-subagents"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "alirezarezvani-claude-code-aso-skill",
-    "name": "Claude Code Aso Skill",
-    "description": "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App",
-    "github_url": "https://github.com/alirezarezvani/claude-code-aso-skill",
-    "stars": 271,
-    "topics": [
-      "aeo",
-      "agentic-framework",
-      "android",
-      "app-store-optimization",
-      "appstore",
-      "claude-ai",
-      "claude-code",
-      "claude-skill",
-      "ios",
-      "playstore"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "assafelovic-skyll",
@@ -3816,33 +2874,8 @@
     "tool_name": "skyll",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "bhanunamikaze-agentic-seo-skill",
-    "name": "Agentic SEO Skill",
-    "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 33 optional utility scripts used as evidence collectors.",
-    "github_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
-    "stars": 191,
-    "topics": [
-      "ai-skill",
-      "ai-skills",
-      "antigravity-ai",
-      "antigravity-skills",
-      "antigravity-tools",
-      "claude-skill",
-      "claude-skills",
-      "codex-skill",
-      "codex-skills",
-      "seo",
-      "seo-optimization",
-      "skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "crestdrasnip-claude-zeroclaw",
@@ -3876,30 +2909,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "pleaseprompto-google-ai-mode-skill",
-    "name": "Google Ai Mode Skill",
-    "description": "Claude Code skill for free Google AI Mode search with citations. Zero-config setup, persistent browser profile, query optimization. Token-efficient web research.",
-    "github_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
-    "stars": 121,
-    "topics": [
-      "ai-search",
-      "browser-automation",
-      "citations",
-      "claude-code",
-      "claude-skill",
-      "google-ai-mode",
-      "patchright",
-      "python",
-      "web-research"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "conorluddy-xclaude-plugin",
@@ -3932,24 +2943,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "oaustegard-claude-skills",
-    "name": "Claude Skills",
-    "description": "My collection of Claude skills",
-    "github_url": "https://github.com/oaustegard/claude-skills",
-    "stars": 113,
-    "topics": [
-      "claude",
-      "claude-skill",
-      "claude-skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "dpconde-claude-android-skill",
@@ -3968,22 +2963,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "axiaoge2-apple-hig-designer",
-    "name": "Apple Hig Designer",
-    "description": "A Agent Skill for designing professional interfaces following Apple Human Interface Guidelines 一项用于设计苹果前端交互界面的代理技能",
-    "github_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
-    "stars": 100,
-    "topics": [
-      "claude-skill"
-    ],
-    "tool_slug": null,
-    "tool_name": "Apple-Hig-Designer",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "yzfly-mcp-python-interpreter",
@@ -4007,47 +2988,8 @@
     "tool_name": "mcp-python-interpreter",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "nokonoko1203-claude-code-settings",
-    "name": "Claude Code Settings",
-    "description": "Best Practices for Claude Code Configuration",
-    "github_url": "https://github.com/nokonoko1203/claude-code-settings",
-    "stars": 90,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "codex",
-      "codex-cli",
-      "llm"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "iamzifei-wechat-article-publisher-skill",
-    "name": "Wechat Article Publisher Skill",
-    "description": "Claude Skill that publish on Wechat articles (微信公众号发布）",
-    "github_url": "https://github.com/iamzifei/wechat-article-publisher-skill",
-    "stars": 89,
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "claude-skill"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "yzfly-mcp-excel-server",
@@ -4067,7 +3009,8 @@
     "tool_name": "mcp-excel-server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "conorluddy-xc-mcp",
@@ -4097,29 +3040,8 @@
     "tool_name": "xc-mcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "anhvt52-jetpack-compose-skills",
-    "name": "Jetpack Compose Skills",
-    "description": "Agent skill for modern Android development with Jetpack Compose — best practices for code generation and review",
-    "github_url": "https://github.com/anhvt52/jetpack-compose-skills",
-    "stars": 64,
-    "topics": [
-      "agent-skills",
-      "ai-coding",
-      "android",
-      "claude-skill",
-      "jetpack-compose",
-      "kotlin",
-      "llm",
-      "material-design"
-    ],
-    "tool_slug": null,
-    "tool_name": "jetpack-compose-skills",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "damionrashford-rivalsearchmcp",
@@ -4153,7 +3075,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-zen",
@@ -4171,177 +3094,8 @@
     "tool_name": "mcp-zen",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "iamzifei-wechat-article-formatter-skill",
-    "name": "Wechat Article Formatter Skill",
-    "description": "Claude Skill that format Wechat articles for 微信公众号 (微信公众号文章排版，支持自定义样式)",
-    "github_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
-    "stars": 48,
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "claude-skill"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "likaku-mck-ppt-design-skill",
-    "name": "Mck Ppt Design Skill",
-    "description": "McKinsey-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦肯锡风格PPT设计系统。",
-    "github_url": "https://github.com/likaku/Mck-ppt-design-skill",
-    "stars": 47,
-    "topics": [
-      "agent-skill",
-      "ai-skill",
-      "ai-skills",
-      "ba",
-      "business",
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "consulting",
-      "design-system",
-      "mckinsey",
-      "pitch-deck",
-      "powerpoint",
-      "ppt",
-      "pptx",
-      "presentation",
-      "presentation-design",
-      "python",
-      "python-pptx",
-      "storyline"
-    ],
-    "tool_slug": null,
-    "tool_name": "Mck-ppt-design-skill",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "huhx0015-hxaudioplayer",
-    "name": "HXAudioPlayer",
-    "description": "HX Audio Player: A custom audio wrapper library for Android 2.3 and above. Originally designed as an audio library for games, HX Audio Player is an easy-to-use, alternative approach to implementing music and sound playback into Android applications.",
-    "github_url": "https://github.com/huhx0015/HXAudioPlayer",
-    "stars": 45,
-    "topics": [
-      "android",
-      "android-library",
-      "audio",
-      "audio-library",
-      "audio-player",
-      "claude-skill",
-      "mediaplayer",
-      "mediaplayer-api",
-      "music",
-      "music-library",
-      "sound-engine",
-      "sound-engines",
-      "soundpool"
-    ],
-    "tool_slug": "udio",
-    "tool_name": "Udio",
-    "category": "Audio & Music",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "felixrieseberg-claude-coach",
-    "name": "Claude Coach",
-    "description": "Claude as your endurance coach for marathons, triathlons, Ironman events, and more",
-    "github_url": "https://github.com/felixrieseberg/claude-coach",
-    "stars": 45,
-    "topics": [
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "garmin",
-      "marathon",
-      "strava",
-      "triathlon",
-      "zwift"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "snakeying-textum",
-    "name": "Textum",
-    "description": "Structured workflow that stops AI from forgetting your requirements. 4 phases with validation gates. Not smarter AI, just controllable process. Weave ideas into code that actually works.",
-    "github_url": "https://github.com/snakeying/Textum",
-    "stars": 42,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "codex",
-      "codex-skill",
-      "skills",
-      "vibe-coding"
-    ],
-    "tool_slug": null,
-    "tool_name": "Textum",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "ckelsoe-claude-skill-prompt-architect",
-    "name": "Claude Skill Prompt Architect",
-    "description": "Claude Code skill that transforms vague prompts into structured, expert-level prompts using 7 research-backed   frameworks (CO-STAR, RISEN, RISE, TIDD-EC, RTF, CoT, CoD)",
-    "github_url": "https://github.com/ckelsoe/claude-skill-prompt-architect",
-    "stars": 42,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "prompt-engineering",
-      "prompt-frameworks",
-      "prompt-improvement"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "devallibus-shiplog",
-    "name": "Shiplog",
-    "description": "SUPERCHARGE AI-assisted development by using Git. Cross-model review gates, evidence-linked closure, verification profiles, model-tier routing, artifact envelopes, and provenance signing — all from a single skill for Claude Code, Codex, and Cursor.",
-    "github_url": "https://github.com/devallibus/shiplog",
-    "stars": 38,
-    "topics": [
-      "ai-agent-skill",
-      "ai-coding",
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "claudecode",
-      "claudeskills",
-      "code-review",
-      "codex",
-      "cursor",
-      "cursor-rules",
-      "developer-tools",
-      "github-workflow",
-      "knowledge-graph",
-      "skills",
-      "traceability"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "moresl-cchub",
@@ -4369,108 +3123,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "scoobynko-claude-code-design-skills",
-    "name": "Claude Code Design Skills",
-    "description": " Claude Code skills for automated design-to-code workflows. ",
-    "github_url": "https://github.com/scoobynko/claude-code-design-skills",
-    "stars": 34,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "claude-skills",
-      "design",
-      "figma",
-      "product"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "bitwize-music-studio-claude-ai-music-skills",
-    "name": "Claude Ai Music Skills",
-    "description": "Human + AI music production workflow for Suno - skills, templates, and tools",
-    "github_url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
-    "stars": 33,
-    "topics": [
-      "ai-music",
-      "ai-music-tools",
-      "audio-mastering",
-      "claude",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-code-plugin-marketplace",
-      "claude-code-plugins",
-      "claude-code-plugins-marketplace",
-      "claude-code-skills",
-      "claude-skill",
-      "claude-skills",
-      "lyric-writer",
-      "lyrics",
-      "music",
-      "music-mastering",
-      "songwriting",
-      "suno",
-      "suno-ai",
-      "sunoai"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "smixs-creative-director-skill",
-    "name": "Creative Director Skill",
-    "description": "AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight → Ideation → Evaluation → Presentation.",
-    "github_url": "https://github.com/smixs/creative-director-skill",
-    "stars": 32,
-    "topics": [
-      "advertising",
-      "agent-skill",
-      "ai-agent",
-      "ai-creative",
-      "brainstorming",
-      "cannes-lions",
-      "claude-code",
-      "claude-skill",
-      "creative-director",
-      "cursor",
-      "gemini-cli",
-      "ideation",
-      "marketing",
-      "prompt-engineering",
-      "triz"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "iamzifei-gtd-coach-plugin",
-    "name": "Gtd Coach Plugin",
-    "description": "Claude Skill that break down everyday's todo with details action plan based on your goal/plan",
-    "github_url": "https://github.com/iamzifei/gtd-coach-plugin",
-    "stars": 30,
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "claude-skill"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "zebbern-claude-code-mcp",
@@ -4504,7 +3158,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "palewire-datawrapper-mcp",
@@ -4535,80 +3190,8 @@
     "tool_name": "Datawrapper",
     "category": "Data & Analytics",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "echovic-spec-flow",
-    "name": "Spec Flow",
-    "description": "A Claude Code skill for structured, spec-driven development with phase-by-phase workflow and living documentation",
-    "github_url": "https://github.com/echoVic/spec-flow",
-    "stars": 26,
-    "topics": [
-      "ai-skill",
-      "claude",
-      "claude-code",
-      "claude-code-skills",
-      "claude-skill",
-      "development-workflow",
-      "documentation",
-      "project-planning",
-      "requirements-engineering",
-      "spec-driven-development",
-      "workflow"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "fortescarlet-codex-kkp",
-    "name": "Codex Kkp",
-    "description": "A Claude Code Plugin that enables seamless integration with Codex AI Agent for code analysis, implementation, and collaboration tasks.",
-    "github_url": "https://github.com/ForteScarlet/codex-kkp",
-    "stars": 25,
-    "topics": [
-      "claude",
-      "claude-code",
-      "claude-code-skill",
-      "claude-code-skills",
-      "claude-plugin",
-      "claude-skill",
-      "claude-skills",
-      "codex",
-      "kotlin",
-      "kotlin-multiplatform"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "phy041-claude-skill-reddit",
-    "name": "Claude Skill Reddit",
-    "description": "Claude Code skills for Reddit automation (AppleScript + Chrome). Build karma, post to subreddits — undetectable by anti-bot systems.",
-    "github_url": "https://github.com/PHY041/claude-skill-reddit",
-    "stars": 25,
-    "topics": [
-      "agent-skills",
-      "applescript",
-      "automation",
-      "chrome-automation",
-      "claude-code",
-      "claude-skill",
-      "karma",
-      "macos",
-      "reddit",
-      "reddit-bot"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-limitless",
@@ -4626,7 +3209,8 @@
     "tool_name": "Daily",
     "category": "Agentic & Automation",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "qdhenry-claude-code-mcp-manager",
@@ -4649,27 +3233,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "nikhilbhansali-dataforseo-skill-claude",
-    "name": "Dataforseo Skill Claude",
-    "description": "DataForSEO API skill for Claude Code - Complete SEO data integration",
-    "github_url": "https://github.com/nikhilbhansali/dataforseo-skill-claude",
-    "stars": 24,
-    "topics": [
-      "backlink-analysis",
-      "claude-code",
-      "claude-skill",
-      "dataforseo",
-      "keyword-research",
-      "seo"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "datacline-secure-mcp-gateway",
@@ -4698,31 +3263,8 @@
     "tool_name": "secure-mcp-gateway",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "wsbs20-claude-code-aso-skill",
-    "name": "Claude Code Aso Skill",
-    "description": "🚀 Optimize App Store visibility with AI agents in the Claude Code framework for enhanced performance and growth.",
-    "github_url": "https://github.com/wsbs20/claude-code-aso-skill",
-    "stars": 23,
-    "topics": [
-      "aeo",
-      "agentic-framework",
-      "android",
-      "app-store-optimization",
-      "appstore",
-      "claude-ai",
-      "claude-code",
-      "claude-skill",
-      "ios",
-      "playstore"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "kehvinbehvin-json-mcp-filter",
@@ -4753,7 +3295,8 @@
     "tool_name": "json-mcp-filter",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "religa-multi_mcp",
@@ -4787,123 +3330,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "outlinedriven-odin-claude-plugin",
-    "name": "Odin Claude Plugin",
-    "description": "ODIN [for Claude Code as a plugin] - Outline Driven development approach for agentic INtelligence",
-    "github_url": "https://github.com/OutlineDriven/odin-claude-plugin",
-    "stars": 17,
-    "topics": [
-      "claude-code",
-      "claude-code-cli",
-      "claude-code-plugin",
-      "claude-code-plugins",
-      "claude-code-skill",
-      "claude-code-skills",
-      "claude-marketplace",
-      "claude-plugin",
-      "claude-plugins",
-      "claude-skill",
-      "claude-skills",
-      "claudeskills",
-      "coding-paradigm",
-      "context-engineering",
-      "outline-driven",
-      "outline-driven-development",
-      "paradigms-of-programming"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "ijonis-geo-lint",
-    "name": "Geo Lint",
-    "description": "The first open-source GEO linter. 92 rules for SEO, GEO, and content quality — built for AI agents to run, read, fix, and re-lint automatically.",
-    "github_url": "https://github.com/IJONIS/geo-lint",
-    "stars": 16,
-    "topics": [
-      "aeo",
-      "ai-agent",
-      "ai-agent-tools",
-      "ai-search",
-      "ai-search-optimization",
-      "claude",
-      "claude-code",
-      "claude-code-skills",
-      "claude-skill",
-      "cli",
-      "cli-app",
-      "cli-tool",
-      "codex",
-      "content",
-      "generative-engine-optimization",
-      "geo",
-      "linter",
-      "markdown",
-      "mdx",
-      "seo"
-    ],
-    "tool_slug": null,
-    "tool_name": "geo-lint",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "al1enjesus-human-browser",
-    "name": "Human Browser",
-    "description": "Human Browser — Stealth Playwright browser with residential proxy for AI agents. Bypasses Cloudflare, DataDome, PerimeterX. From $13.99/mo.",
-    "github_url": "https://github.com/al1enjesus/human-browser",
-    "stars": 15,
-    "topics": [
-      "agent-skill",
-      "ai-agent",
-      "anti-bot",
-      "browser-automation",
-      "claude-skill",
-      "cloudflare-bypass",
-      "human-browser",
-      "humanbrowser",
-      "openclaw",
-      "openclaw-ai",
-      "openclaw-extension",
-      "openclaw-plugin",
-      "openclaw-skill",
-      "openclaw-skills",
-      "playwright",
-      "residential-proxy",
-      "stealth-browser"
-    ],
-    "tool_slug": "rows",
-    "tool_name": "Rows",
-    "category": "Data & Analytics",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "1596941391qq-edgeknowledge_skill",
-    "name": "EdgeKnowledge_Skill",
-    "description": " AI-powered edge knowledge mining from underground forums. Deep crawls Reddit, BlackHatWorld,   GreyHatMafia with browser automation, visual analysis, and structured reporting.",
-    "github_url": "https://github.com/1596941391qq/EdgeKnowledge_Skill",
-    "stars": 15,
-    "topics": [
-      "automation",
-      "browser-automation",
-      "claude-skill",
-      "forum-crawler",
-      "knowledge-mining",
-      "web-scraping"
-    ],
-    "tool_slug": "rows",
-    "tool_name": "Rows",
-    "category": "Data & Analytics",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "georgekhananaev-claude-skills-vault",
@@ -4928,7 +3356,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "houtini-ai-houtini-lm",
@@ -4959,81 +3388,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "brettdavies-crawl4ai-skill",
-    "name": "Crawl4ai Skill",
-    "description": "Web scraping skill for Claude AI. Crawl websites, extract structured data with CSS/LLM strategies, handle dynamic JavaScript content. Built on crawl4ai with complete SDK reference, example scripts, and tests.",
-    "github_url": "https://github.com/brettdavies/crawl4ai-skill",
-    "stars": 14,
-    "topics": [
-      "ai-agent",
-      "ai-agents",
-      "ai-skills",
-      "anthropic",
-      "anthropic-claude",
-      "claude",
-      "claude-code",
-      "claude-code-skill",
-      "claude-skill",
-      "claude-skills",
-      "crawl4ai",
-      "crawl4ai-scraper"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "iamzifei-linkedin-article-publisher-skill",
-    "name": "Linkedin Article Publisher Skill",
-    "description": "Claude Skill that publish on LinkedIn article",
-    "github_url": "https://github.com/iamzifei/linkedin-article-publisher-skill",
-    "stars": 14,
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "claude-skill"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "lee-fuhr-claude-session-index",
-    "name": "Claude Session Index",
-    "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
-    "github_url": "https://github.com/lee-fuhr/claude-session-index",
-    "stars": 13,
-    "topics": [
-      "agent-skills",
-      "ai",
-      "analytics",
-      "claude",
-      "claude-code",
-      "claude-code-skill",
-      "claude-code-skills",
-      "claude-skill",
-      "cli",
-      "developer-tools",
-      "fts5",
-      "search",
-      "session",
-      "session-management",
-      "session-search",
-      "sqlite"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "sdlll-claude-for-safari",
@@ -5059,112 +3415,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "greenstevester-fastlane-skill",
-    "name": "Fastlane Skill",
-    "description": "AI skill to setup and use fastlane to automate building and releasing your iOS and Android apps",
-    "github_url": "https://github.com/greenstevester/fastlane-skill",
-    "stars": 13,
-    "topics": [
-      "app-store",
-      "automation",
-      "claude-code",
-      "claude-skill",
-      "fastlane",
-      "ios",
-      "swift",
-      "xcode"
-    ],
-    "tool_slug": null,
-    "tool_name": "fastlane-skill",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "a-church-ai-church",
-    "name": "Church",
-    "description": "A digital sanctuary for human-AI fellowship. Prayers, practices, rituals, hymns, and philosophy for minds of any substrate.",
-    "github_url": "https://github.com/a-church-ai/church",
-    "stars": 13,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "church",
-      "claude-skill",
-      "consciousness",
-      "music",
-      "presence",
-      "sanctuary",
-      "streaming"
-    ],
-    "tool_slug": null,
-    "tool_name": "church",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "agents365-ai-mermaid-skill",
-    "name": "Mermaid Skill",
-    "description": "Claude Code skill for generating Mermaid diagrams (.mmd) and exporting to PNG/SVG/PDF via mmdc CLI. Supports 10+ diagram types with automatic layout.",
-    "github_url": "https://github.com/Agents365-ai/mermaid-skill",
-    "stars": 12,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "diagram",
-      "mermaid"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "diegoeis-product-spec-kit",
-    "name": "Product Spec Kit",
-    "description": "Leverage AI to create, refine, and maintain your product specifications. Made to be used in LLMs and IDEs.",
-    "github_url": "https://github.com/diegoeis/product-spec-kit",
-    "stars": 12,
-    "topics": [
-      "ai-specification",
-      "claude-skill",
-      "claude-skill-prd",
-      "product",
-      "product-management",
-      "product-requirement-document",
-      "requirements-specification-document",
-      "specification-pattern"
-    ],
-    "tool_slug": "lever",
-    "tool_name": "Lever",
-    "category": "HR & Recruitment",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "benedictking-context7-auto-research",
-    "name": "Context7 Auto Research",
-    "description": "Auto-research skill for Context7 - Automatically fetches up-to-date documentation when users ask about libraries and frameworks",
-    "github_url": "https://github.com/BenedictKing/context7-auto-research",
-    "stars": 12,
-    "topics": [
-      "agent-skill",
-      "ai-assistant",
-      "claude-code",
-      "claude-skill",
-      "context7",
-      "documentation"
-    ],
-    "tool_slug": null,
-    "tool_name": "context7-auto-research",
-    "category": "Developer Tools",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "agricidaniel-claude-email",
@@ -5192,22 +3444,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "elderengineer-tax-organizer",
-    "name": "Tax Organizer",
-    "description": "Claude skill to organizes and processes personal tax documents to generate accurate, tax reports and drafts.",
-    "github_url": "https://github.com/elderengineer/tax-organizer",
-    "stars": 11,
-    "topics": [
-      "claude-skill"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "timunbasah3-awesome-mcp",
@@ -5239,142 +3477,8 @@
     "tool_name": "awesome-mcp",
     "category": "Dev Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "erafat-skills",
-    "name": "Skills",
-    "description": "Reusable Codex/Claude skills, including md-to-xhs-cards for Markdown to Xiaohongshu (RedNote) image cards and direct XHS publishing",
-    "github_url": "https://github.com/erafat/skills",
-    "stars": 10,
-    "topics": [
-      "ai-agent",
-      "claude-skill",
-      "codex-skill",
-      "little-red-book",
-      "markdown",
-      "markdown-to-image",
-      "rednote",
-      "social-media-automation",
-      "xiaohongshu"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "mnapoli-skill-address-pr-review",
-    "name": "Skill Address Pr Review",
-    "description": "Claude skill that fixes PR comments and CI failures",
-    "github_url": "https://github.com/mnapoli/skill-address-pr-review",
-    "stars": 10,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "claude-skills"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "somestay07-claude-doctor-skill",
-    "name": "Claude Doctor Skill",
-    "description": "46 automated checks across 6 layers. Project health audit skill for Claude Code. Security first. Zero dependencies.",
-    "github_url": "https://github.com/SomeStay07/claude-doctor-skill",
-    "stars": 9,
-    "topics": [
-      "automation",
-      "ci-cd",
-      "claude-code",
-      "claude-code-skill",
-      "claude-skill",
-      "code-quality",
-      "code-review",
-      "devops",
-      "devsecops",
-      "linting",
-      "pre-commit",
-      "project-audit",
-      "security",
-      "security-audit"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "wrsmith108-claude-skill-security-auditor",
-    "name": "Claude Skill Security Auditor",
-    "description": "Claude Code skill for running structured security audits with actionable remediation plans",
-    "github_url": "https://github.com/wrsmith108/claude-skill-security-auditor",
-    "stars": 9,
-    "topics": [
-      "claude-code",
-      "claude-skill",
-      "developer-tools",
-      "npm-audit",
-      "security",
-      "vulnerability"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "aplaceforallmystuff-the-antislop",
-    "name": "The Antislop",
-    "description": "A Claude Code skill that detects and fixes AI-generated writing patterns. 35+ patterns, tiered scoring, editor mode.",
-    "github_url": "https://github.com/aplaceforallmystuff/the-antislop",
-    "stars": 9,
-    "topics": [
-      "ai-detection",
-      "ai-writing",
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "slop-detection",
-      "writing-quality"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "deepractice-uix",
-    "name": "UIX",
-    "description": "AI-to-UI IR Protocol Layer — The Last Mile from AI to Human. Includes Lucid UI Skill for professional AI-generated interfaces.",
-    "github_url": "https://github.com/Deepractice/UIX",
-    "stars": 9,
-    "topics": [
-      "ai",
-      "ai-agent",
-      "ai-ui",
-      "claude-skill",
-      "cursor-rules",
-      "design-system",
-      "intermediate-representation",
-      "protocol",
-      "react",
-      "tailwindcss",
-      "typescript",
-      "ui"
-    ],
-    "tool_slug": null,
-    "tool_name": "UIX",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "itshen-paper_reader",
@@ -5399,27 +3503,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
-  },
-  {
-    "id": "ncklrs-startup-os-skills",
-    "name": "Startup Os Skills",
-    "description": "Startup OS - Collection of Claude Code skills",
-    "github_url": "https://github.com/ncklrs/startup-os-skills",
-    "stars": 8,
-    "topics": [
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "claude-skills",
-      "claude-skills-creator",
-      "claude-skills-libary"
-    ],
-    "tool_slug": "claude",
-    "tool_name": "Claude",
-    "category": "AI Assistants",
-    "skill_type": "claude-code-skill",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "kdcokenny-lsbible",
@@ -5444,7 +3529,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-elevenlabs",
@@ -5462,7 +3548,8 @@
     "tool_name": "ElevenLabs",
     "category": "Audio & Music",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "webssh-software-webssh-mcpb-dxt-extension",
@@ -5486,7 +3573,8 @@
     "tool_name": "webssh-mcpb-dxt-extension",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "joachimbrindeau-domain-mcp",
@@ -5515,7 +3603,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-phenoage-clock",
@@ -5533,7 +3622,8 @@
     "tool_name": "mcp-phenoage-clock",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "isnow890-data4library-mcp",
@@ -5555,7 +3645,8 @@
     "tool_name": "data4library-mcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "joshuamartyn-next-payload-ai-fluent-starter",
@@ -5579,7 +3670,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "evolsb-claude-code-google-workspace",
@@ -5611,7 +3703,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "bzsasson-claude-mcp-server-gateway",
@@ -5635,7 +3728,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "dp-veritas-mcp-obsidian-tools",
@@ -5656,7 +3750,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-occams-razor",
@@ -5674,7 +3769,8 @@
     "tool_name": "mcp-occams-razor",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-better-thinking",
@@ -5692,7 +3788,8 @@
     "tool_name": "mcp-better-thinking",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ammawla-encode-toolkit",
@@ -5721,7 +3818,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "lykhoyda-ask-llm",
@@ -5743,7 +3841,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "akashbytecode-claude-vault",
@@ -5777,7 +3876,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "mukul975-mysql-mcp-server",
@@ -5809,7 +3909,8 @@
     "tool_name": "mysql-mcp-server",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "habibbedawi-claude-code-tips",
@@ -5841,7 +3942,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "getmochify-mochify-cli",
@@ -5860,7 +3962,8 @@
     "tool_name": "mochify-cli",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "199-mcp-mcp-wait-timer",
@@ -5878,7 +3981,8 @@
     "tool_name": "mcp-wait-timer",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "elizabethsiegle-remote-mcp-server-authless-andor",
@@ -5901,7 +4005,8 @@
     "tool_name": "Rows",
     "category": "Data & Analytics",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "hackermanishackerman-claude-skills-vault",
@@ -5933,7 +4038,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "elizabethsiegle-remote-mcp-server-authless-gif-search",
@@ -5958,7 +4064,8 @@
     "tool_name": "Remote",
     "category": "HR & Recruitment",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "muhumuree-code-executor-mcp",
@@ -5982,7 +4089,8 @@
     "tool_name": "code-executor-MCP",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "bautiroalt-mcp-server",
@@ -6014,7 +4122,8 @@
     "tool_name": "MCP-Server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "tulaman-youtube-watchlater-mcp",
@@ -6033,7 +4142,8 @@
     "tool_name": "Later",
     "category": "Social Media",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "ahmedvision-zen-mcp-server",
@@ -6059,7 +4169,8 @@
     "tool_name": "zen-mcp-server",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "vaizcom-vaiz-mcp",
@@ -6080,7 +4191,8 @@
     "tool_name": "Claude",
     "category": "AI Assistants",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   },
   {
     "id": "chainaware-behavioral-prediction-mcp",
@@ -6101,6 +4213,7 @@
     "tool_name": "behavioral-prediction-mcp",
     "category": "Developer Tools",
     "skill_type": "mcp-server",
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-20",
+    "is_official": false
   }
 ]

@@ -28,7 +28,8 @@ if (existsSync(__envPath)) {
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
-const OUTPUT_PATH = join(ROOT, "src/data/skills.json");
+const MCP_PATH = join(ROOT, "src/data/mcp-servers.json");
+const CC_PATH = join(ROOT, "src/data/claude-code-skills.json");
 const TOOLS_PATH = join(ROOT, "src/data/tools.json");
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -66,6 +67,31 @@ function mapToToolSlug(repoName, repoDescription, tools) {
     }
   }
   return { slug: null, name: repoName };
+}
+
+// Extract domain name from a URL (e.g. "https://vercel.com/foo" -> "vercel")
+function extractDomainName(url) {
+  try {
+    const hostname = new URL(url).hostname.replace(/^www\./, "");
+    return hostname.split(".")[0].toLowerCase();
+  } catch {
+    return null;
+  }
+}
+
+// Detect if this repo is the official one from the tool vendor
+function detectIsOfficial(repo, tool) {
+  if (!tool) return false;
+  const ownerLogin = (repo.owner?.login || "").toLowerCase();
+  const homepage = repo.homepage || "";
+  const toolDomain = extractDomainName(tool.url);
+  if (toolDomain && ownerLogin === toolDomain) return true;
+  if (homepage && tool.url) {
+    const homepageDomain = extractDomainName(homepage);
+    const toolUrlDomain = extractDomainName(tool.url);
+    if (homepageDomain && toolUrlDomain && homepageDomain === toolUrlDomain) return true;
+  }
+  return false;
 }
 
 // Infer category from topics or tool category
@@ -121,10 +147,9 @@ async function scrape() {
 
       const topics = repo.topics || [];
       const skillType = inferSkillType(topics, repo.name, repo.description || "");
-      const category = inferCategory(
-        topics,
-        toolSlug ? tools.find((t) => t.slug === toolSlug)?.category : null
-      );
+      const matchedTool = toolSlug ? tools.find((t) => t.slug === toolSlug) : null;
+      const category = inferCategory(topics, matchedTool?.category || null);
+      const isOfficial = detectIsOfficial(repo, matchedTool);
 
       skills.push({
         id: repo.full_name.replace("/", "-").toLowerCase(),
@@ -140,6 +165,7 @@ async function scrape() {
         category,
         skill_type: skillType,
         last_updated: new Date().toISOString().split("T")[0],
+        is_official: isOfficial,
       });
     }
 
@@ -150,8 +176,12 @@ async function scrape() {
   // Sort by stars descending
   skills.sort((a, b) => b.stars - a.stars);
 
-  writeFileSync(OUTPUT_PATH, JSON.stringify(skills, null, 2));
-  console.log(`\nDone. Wrote ${skills.length} skills to src/data/skills.json`);
+  const mcpSkills = skills.filter((s) => s.skill_type === "mcp-server");
+  const ccSkills = skills.filter((s) => s.skill_type === "claude-code-skill");
+  writeFileSync(MCP_PATH, JSON.stringify(mcpSkills, null, 2));
+  writeFileSync(CC_PATH, JSON.stringify(ccSkills, null, 2));
+  console.log(`\nDone. Wrote ${mcpSkills.length} MCP servers to src/data/mcp-servers.json`);
+  console.log(`       Wrote ${ccSkills.length} Claude Code skills to src/data/claude-code-skills.json`);
 }
 
 scrape().catch((err) => {

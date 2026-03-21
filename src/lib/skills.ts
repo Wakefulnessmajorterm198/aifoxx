@@ -1,8 +1,9 @@
 import { SkillSchema, type Skill } from "@/types/skill";
-import skillsData from "@/data/skills.json";
+import mcpData from "@/data/mcp-servers.json";
+import ccData from "@/data/claude-code-skills.json";
 
 export function validateSkills(): Skill[] {
-  return skillsData.map((s) => SkillSchema.parse(s));
+  return [...mcpData, ...ccData].map((s) => SkillSchema.parse(s));
 }
 
 export const allSkills: Skill[] = validateSkills();
