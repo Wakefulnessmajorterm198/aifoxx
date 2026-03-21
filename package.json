@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "check": "npm run typecheck && npm run lint && npm run validate && npm run build",
+    "prepare": "husky",
     "validate": "node -e \"const t=require('./src/data/tools.json');const s=new Set();t.forEach((x,i)=>{const k=x.name.toLowerCase().replace(/[^a-z0-9]+/g,'-');if(s.has(k))throw new Error('DUPLICATE SLUG: '+k+' at index '+i);s.add(k);['name','category','subcategory','description','url','tags','pricing'].forEach(f=>{if(!x[f])throw new Error('MISSING: '+f+' at index '+i);});});console.log('✓ '+t.length+' tools valid, no duplicates');\""
   },
   "dependencies": {
@@ -88,6 +91,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "happy-dom": "^20.8.4",
+    "husky": "^9.1.7",
     "jsdom": "^28.1.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",

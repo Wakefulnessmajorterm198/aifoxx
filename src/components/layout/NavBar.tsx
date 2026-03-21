@@ -6,33 +6,15 @@ import { Sidebar } from "./Sidebar";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import Brand from "@/lib/brand";
-import { useTranslation } from "react-i18next";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-
-const LANGUAGES = [
-  { code: "en", label: "EN", flag: "🇬🇧" },
-  { code: "de", label: "DE", flag: "🇩🇪" },
-  { code: "ru", label: "RU", flag: "🇷🇺" },
-  { code: "fr", label: "FR", flag: "🇫🇷" },
-  { code: "es", label: "ES", flag: "🇪🇸" },
-  { code: "zh", label: "ZH", flag: "🇨🇳" },
-  { code: "hi", label: "HI", flag: "🇮🇳" },
-];
 
 export function NavBar() {
   const { theme, cycleTheme } = useTheme();
   const [mobileOpen, setMobileOpen] = useState(false);
   const { pathname } = useLocation();
-  const { t, i18n } = useTranslation();
 
   const ThemeIcon = theme === "dark" ? Moon : theme === "light" ? Sun : BookOpen;
-  const nextThemeLabel = theme === "dark" ? t("nav.themeNext.softLight") : theme === "light" ? t("nav.themeNext.notebook") : t("nav.themeNext.darkTerminal");
+  const nextThemeLabel =
+    theme === "dark" ? "soft light" : theme === "light" ? "notebook" : "dark terminal";
 
   return (
     <header className="sticky top-0 z-40 bg-bg-surface border-b border-border-default">
@@ -67,22 +49,6 @@ export function NavBar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <Select value={i18n.language.slice(0, 2)} onValueChange={(code) => i18n.changeLanguage(code)}>
-            <SelectTrigger className="h-7 w-[72px] font-mono text-xs border-border-default bg-transparent rounded-[4px] px-2 focus:ring-0 focus:ring-offset-0">
-              <SelectValue>
-                {LANGUAGES.find((l) => l.code === i18n.language.slice(0, 2))?.flag ?? "🌐"}{" "}
-                {(i18n.language.slice(0, 2)).toUpperCase()}
-              </SelectValue>
-            </SelectTrigger>
-            <SelectContent className="font-mono text-xs">
-              {LANGUAGES.map((lang) => (
-                <SelectItem key={lang.code} value={lang.code} className="font-mono text-xs">
-                  {lang.flag} {lang.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-
           <button
             onClick={cycleTheme}
             className="flex items-center justify-center w-7 h-7 border border-border-default rounded-[4px] transition-colors duration-150 hover:shadow-glow"
@@ -91,6 +57,18 @@ export function NavBar() {
           >
             <ThemeIcon size={14} />
           </button>
+
+          <Link
+            to="/"
+            className={cn(
+              "hidden sm:inline-flex font-mono text-xs tracking-widest border px-3 py-1.5 rounded-[4px] transition-colors duration-150",
+              pathname === "/"
+                ? "bg-accent-green text-primary-foreground border-accent-green font-bold"
+                : "border-border-default text-text-secondary hover:text-text-primary hover:bg-bg-overlay"
+            )}
+          >
+            AI DIRECTORY
+          </Link>
 
           <Link
             to="/skills"
@@ -105,6 +83,18 @@ export function NavBar() {
           </Link>
 
           <Link
+            to="/mcp"
+            className={cn(
+              "hidden sm:inline-flex font-mono text-xs tracking-widest border px-3 py-1.5 rounded-[4px] transition-colors duration-150",
+              pathname === "/mcp"
+                ? "bg-accent-green text-primary-foreground border-accent-green font-bold"
+                : "border-border-default text-text-secondary hover:text-text-primary hover:bg-bg-overlay"
+            )}
+          >
+            MCP
+          </Link>
+
+          <Link
             to="/submit"
             className={cn(
               "hidden sm:inline-flex font-mono text-xs tracking-widest border px-3 py-1.5 rounded-[4px] transition-colors duration-150",
@@ -113,7 +103,7 @@ export function NavBar() {
                 : "border-accent-green text-accent-green hover:bg-accent-green hover:text-primary-foreground"
             )}
           >
-            {t("nav.submitTool")}
+            SUBMIT TOOL
           </Link>
         </div>
       </div>
