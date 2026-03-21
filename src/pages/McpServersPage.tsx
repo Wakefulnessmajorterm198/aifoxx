@@ -1,14 +1,14 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Github, Star, ExternalLink } from "lucide-react";
-import { allClaudeCodeSkills, searchClaudeCodeSkills, SKILL_COUNTS } from "@/lib/skills";
+import { allMcpServers, searchMcpServers, SKILL_COUNTS } from "@/lib/skills";
 import { type Skill } from "@/types/skill";
 import { PageMeta } from "@/components/seo/PageMeta";
 import Brand from "@/lib/brand";
 
 const SKILLS_PER_PAGE = 18;
 
-function SkillCard({ skill }: { skill: Skill }) {
+function McpServerCard({ skill }: { skill: Skill }) {
   return (
     <div className="relative overflow-hidden bg-bg-surface border border-border-default rounded-[6px] p-4 flex flex-col gap-3 transition-all duration-150 hover:border-accent-green/50 hover:shadow-glow">
       {/* Top bar accent */}
@@ -70,12 +70,12 @@ function SkillCard({ skill }: { skill: Skill }) {
   );
 }
 
-export default function SkillsPage() {
+export default function McpServersPage() {
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
-    return query.trim() ? searchClaudeCodeSkills(query) : allClaudeCodeSkills;
+    return query.trim() ? searchMcpServers(query) : allMcpServers;
   }, [query]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / SKILLS_PER_PAGE));
@@ -90,22 +90,22 @@ export default function SkillsPage() {
   return (
     <>
       <PageMeta
-        title={`Claude Code Skills — GitHub Integrations | ${Brand.product.name_styled}`}
-        description={`Browse ${SKILL_COUNTS.claudeCodeSkills} Claude Code skills: hooks, commands, and GitHub integrations ranked by stars.`}
-        url={`https://${Brand.product.domain}/skills`}
+        title={`MCP Servers — Model Context Protocol Integrations | ${Brand.product.name_styled}`}
+        description={`Browse ${SKILL_COUNTS.mcpServers} MCP servers: connect Claude to tools, APIs, and data sources via Model Context Protocol.`}
+        url={`https://${Brand.product.domain}/mcp`}
       />
 
       {/* Hero */}
       <section className="py-14 text-center px-4 border-b border-border-muted/30 bg-bg-surface">
         <div className="flex flex-col items-center gap-3">
           <span className="font-mono text-[10px] tracking-widest text-accent-green border border-accent-green/30 px-3 py-1 rounded-[3px]">
-            CLAUDE CODE SKILLS
+            MCP SERVERS
           </span>
           <h1 className="font-display font-black text-4xl md:text-5xl text-text-primary tracking-tight">
-            Claude Code Skills
+            MCP Servers
           </h1>
           <p className="font-mono text-sm text-text-secondary max-w-lg">
-            {SKILL_COUNTS.claudeCodeSkills} GitHub repos — hooks, slash commands, and Claude Code integrations. Ranked by stars.
+            {SKILL_COUNTS.mcpServers} GitHub repos — connect Claude to tools, APIs, and data sources via Model Context Protocol. Ranked by stars.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function SkillsPage() {
             type="text"
             value={query}
             onChange={(e) => handleQueryChange(e.target.value)}
-            placeholder="Search skills..."
+            placeholder="Search MCPs..."
             className="w-full bg-bg-elevated border border-border-default rounded-[6px] px-4 py-2.5 font-mono text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent-green/60 transition-colors"
           />
         </div>
@@ -145,7 +145,7 @@ export default function SkillsPage() {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {paginated.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} />
+                <McpServerCard key={skill.id} skill={skill} />
               ))}
             </div>
           )}

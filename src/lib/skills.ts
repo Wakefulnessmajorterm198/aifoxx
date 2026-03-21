@@ -18,16 +18,38 @@ export function getSkillsByCategory(category: string): Skill[] {
   );
 }
 
+function skillMatch(s: Skill, q: string): boolean {
+  return (
+    s.name.toLowerCase().includes(q) ||
+    s.description.toLowerCase().includes(q) ||
+    s.tool_name.toLowerCase().includes(q) ||
+    s.topics.some((t) => t.toLowerCase().includes(q))
+  );
+}
+
 export function searchSkills(query: string): Skill[] {
   const q = query.trim().toLowerCase();
   if (!q) return allSkills;
-  return allSkills.filter(
-    (s) =>
-      s.name.toLowerCase().includes(q) ||
-      s.description.toLowerCase().includes(q) ||
-      s.tool_name.toLowerCase().includes(q) ||
-      s.topics.some((t) => t.toLowerCase().includes(q))
-  );
+  return allSkills.filter((s) => skillMatch(s, q));
+}
+
+export const allMcpServers: Skill[] = allSkills.filter(
+  (s) => s.skill_type === "mcp-server"
+);
+export const allClaudeCodeSkills: Skill[] = allSkills.filter(
+  (s) => s.skill_type === "claude-code-skill"
+);
+
+export function searchMcpServers(query: string): Skill[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return allMcpServers;
+  return allMcpServers.filter((s) => skillMatch(s, q));
+}
+
+export function searchClaudeCodeSkills(query: string): Skill[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return allClaudeCodeSkills;
+  return allClaudeCodeSkills.filter((s) => skillMatch(s, q));
 }
 
 export const SKILL_COUNTS = {
